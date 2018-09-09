@@ -61,9 +61,10 @@ public void OnFrame ()
    if (player)
    {
       Vector2 dir = GetFlow(player.transform);
-      //Apply flow force to player if they are moving in the direction of the flow
-      if (playerMan.getInput().magnitude > 0 && Vector2.Dot(playerMan.getInput(),
-         dir) > 0)
+      //Apply flow force to player if they are moving in the direction of
+      //the flow
+      if (playerMan.getInput().magnitude > 0 &&
+         Vector2.Dot(playerMan.getInput(), dir) > 0)
          playerRig.AddForce (dir * flowForce * 9f);
    }
 }

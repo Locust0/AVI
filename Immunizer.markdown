@@ -28,7 +28,8 @@ private void PushAway (numRays)
 
       //Cast ray in that direction
       RaycastHit hit;
-      if (Physics.Raycast(transform.position, dir, out hit, rayDist, collisionMask))
+      if (Physics.Raycast(transform.position, dir, out hit, rayDist, 
+         collisionMask))
       {
          //Adjust net force to be applied by the distance to the target
          net += hit.normal * (rayDist - hit.distance) / rayDist;
@@ -49,17 +50,20 @@ public void OnFrame ()
 {
    foreach (GameObject red in reds)
    {
-      red.GetComponent<Rigidbody> ().AddForce (GetFlow(red.transform) * flowForce);
+      red.GetComponent<Rigidbody> ().AddForce (GetFlow(red.transform) 
+         * flowForce);
    }
    foreach (GameObject plat in plats)
    {
-      plat.GetComponent<Rigidbody> ().AddForce (GetFlow(plat.transform) * flowForce * 0.85f);
+      plat.GetComponent<Rigidbody> ().AddForce (GetFlow(plat.transform) 
+         * flowForce * 0.85f);
    }
    if (player)
    {
       Vector2 dir = GetFlow(player.transform);
       //Apply flow force to player if they are moving in the direction of the flow
-      if (playerMan.getInput().magnitude > 0 && Vector2.Dot(playerMan.getInput(), dir) > 0)
+      if (playerMan.getInput().magnitude > 0 && Vector2.Dot(playerMan.getInput(),
+         dir) > 0)
          playerRig.AddForce (dir * flowForce * 9f);
    }
 }

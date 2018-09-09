@@ -16,10 +16,10 @@ Spawns all the drones on the left using randomized seperations and offsets
 ```c#
 private IEnumerator SpawnDrones ()
 {
-	while (dronesSpawned < totalDroneCount)
-	{
-		//Find total distance through which we can spawn drones
-		float totalDist = maxX - minX;
+   while (dronesSpawned < totalDroneCount)
+   {
+      //Find total distance through which we can spawn drones
+      float totalDist = maxX - minX;
 
 		//Find the maximum seperation we can manage with the current number of drones
 		float maxSep = totalDist / (groupSize - 1);

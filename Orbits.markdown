@@ -84,8 +84,12 @@ This function takes in current and original distance and speed then corrects the
 function CorrectOrbit()
 {
    //Calculate the distance off from starting distance
-   ex = transform.position.x - (star1 ? star1.transform.position.x : attractor1.transform.position.x);
-   wi = transform.position.y - (star1 ? star1.transform.position.y : attractor1.transform.position.y);
+   ex = transform.position.x - 
+      (star1 ? star1.transform.position.x : attractor1.transform.position.x);
+   wi = transform.position.y - 
+      (star1 ? star1.transform.position.y : attractor1.transform.position.y);
+   
+   //Find the offsets
    var offsetDist : double = Mathf.Sqrt((ex * ex) + (wi * wi)) - startingDist;
    var offsetVel : double = GetComponent.<Rigidbody2D>().velocity.magnitude - startingVel;
 	
@@ -97,62 +101,80 @@ function CorrectOrbit()
    }
 	
    //Correct the distance
+   //Apply force towards planet
    if (offsetDist > 3)
    {
-      //Apply force towards planet
       if (ex <= 0)
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(wi / ex)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction *
+	    Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * 
+	    Mathf.Sin(Mathf.Atan(wi / ex)));
       }
       else
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(wi / ex)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * 
+	    Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * 
+	    Mathf.Sin(Mathf.Atan(wi / ex)));
       }
    }
+   
+   //Apply force away from planet
    else if (offsetDist < -3)
    {
-      //Apply force away from planet
       if (ex <= 0)
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(wi / ex)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * 
+	    Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * 
+	    Mathf.Sin(Mathf.Atan(wi / ex)));
       }
       else
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(wi / ex)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * 
+	    Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * 
+	    Mathf.Sin(Mathf.Atan(wi / ex)));
       }
    }
 	
    //Correct the speed
+   //Apply force counter clockwise
    if ((!reverse && offsetVel < -3) || (reverse && offsetVel > 3))
    {
-      //Apply force counter clockwise
       if (wi >= 0)
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(ex / wi)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * 
+	    Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * 
+	    Mathf.Sin(Mathf.Atan(ex / wi)));
       }
       else
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(ex / wi)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * 
+	    Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * 
+	    Mathf.Sin(Mathf.Atan(ex / wi)));
       }
    }
+   
+   //Apply force clockwise
    else if ((!reverse && offsetVel > 3) || (reverse && offsetVel < -3))
    {
-      //Apply force clockwise
       if (wi >= 0)
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(ex / wi)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * 
+	    Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * 
+	    Mathf.Sin(Mathf.Atan(ex / wi)));
       }
       else
       {
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(ex / wi)));
-         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * 
+	    Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * 
+	    Mathf.Sin(Mathf.Atan(ex / wi)));
       }
    }
 }

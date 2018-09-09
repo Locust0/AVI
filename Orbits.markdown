@@ -12,7 +12,7 @@ In senior year of high school I started a game that I just finished a few months
 
 ### Code Examples
 Possibly my favorite bit of code I've ever written, this puts any object into a perfectly circular orbit around a nearby center of gravity. It also saves the starting velocity and distance of that orbit so they can be corrected if altered.
-```c#
+```javascript
 function Orbit ()
 {
    if (star1 == null && attractor1 == null)
@@ -77,7 +77,7 @@ function Orbit ()
 }
 ```
 
-```c#
+```javascript
 
 ```
 

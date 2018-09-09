@@ -59,6 +59,59 @@ private IEnumerator SpawnDrones ()
 }
 ```
 
+Creates a template object which controls the locations, types and orientations of all obstacles on a board
+```c#
+public List<Obstacle> PickRandomBoard ()
+   {
+      List<Obstacle> board = new List<Obstacle>();
+
+      //find number of x and y spaces
+      int ex = Mathf.RoundToInt((xRange.y - xRange.x) / spacing) + 1;
+      int wi = Mathf.RoundToInt((yRange.y - yRange.x) / spacing) + 1;
+		
+      //Create a bool array to keep track of taken spaces
+      bool[,] taken = new bool[ex,wi];
+		
+      int obstaclesSpawned = 0;
+      while(obstaclesSpawned < numObstacles)
+      {
+         //Pick a random slot to spawn an obstacle
+         int tempX = Random.Range (0, ex);
+         int tempY = Random.Range (0, wi);
+			
+         //Check if its taken
+         if (taken[tempX, tempY])
+            continue;
+
+         //Find the real world coordinates
+         float x = (tempX - (xRange.y / spacing)) * spacing;
+         float y = (tempY - (yRange.y / spacing)) * spacing;
+			
+         //Note that this is taken
+         taken[tempX, tempY] = true;
+			
+         //Pick an obstacle to spawn
+         int pick = Mathf.RoundToInt(Random.Range (-0.5f, 2.49f));
+
+         //Pick a random rotation
+         Quaternion rot = transform.rotation;
+         Vector3 eulTemp = rot.eulerAngles;
+         eulTemp.z = Random.Range (0, 359);
+         rot.eulerAngles = eulTemp;
+
+         //Pick a random direction (for magnets exclusively)
+         bool dir = (Random.value > 0.5f);
+
+         board.Add(new Obstacle(pick, new Vector2(x, y), rot, dir));
+
+         //Count the obstacles we've created so far
+         obstaclesSpawned++;
+   }
+
+   return board;
+}
+```
+
 ---
 
 - [HOME](https://avijr.com)

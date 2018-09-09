@@ -15,29 +15,29 @@ The function which pushes red blood cells away from eachother
 ```c#
 private void PushAway (numRays)
 {
-	float angle = 0f;
-	Vector2 dir = new Vector2(0, 0);
-	Vector3 net = Vector3.zero;
+   float angle = 0f;
+   Vector2 dir = new Vector2(0, 0);
+   Vector3 net = Vector3.zero;
 	
-	//Loop through all rays starting with angle = 0
-	for (int i = 0; i < numRays; i++)
-	{
-		//Find direction of ray
-		dir.x = Mathf.Cos (angle);
-		dir.y = Mathf.Sin (angle);
+   //Loop through all rays starting with angle = 0
+   for (int i = 0; i < numRays; i++)
+   {
+      //Find direction of ray
+      dir.x = Mathf.Cos (angle);
+      dir.y = Mathf.Sin (angle);
 
-		//Cast ray in that direction
-		RaycastHit hit;
-		if (Physics.Raycast(transform.position, dir, out hit, rayDist, collisionMask))
-		{
-			//Adjust net force to be applied by the distance to the target
-			net += hit.normal * (rayDist - hit.distance) / rayDist;
-		}
+      //Cast ray in that direction
+      RaycastHit hit;
+      if (Physics.Raycast(transform.position, dir, out hit, rayDist, collisionMask))
+      {
+         //Adjust net force to be applied by the distance to the target
+         net += hit.normal * (rayDist - hit.distance) / rayDist;
+      }
 
-		angle += Mathf.PI * 2 / numRays;
-	}
-	//Apply force
-	rb.AddForce(net * pushForce);
+      angle += Mathf.PI * 2 / numRays;
+   }
+   //Apply force
+   rb.AddForce(net * pushForce);
 }
 ```
 
@@ -47,21 +47,21 @@ Note that this only pushes the player if they are moving in the of the blood str
 ```c#
 public void OnFrame ()
 {
-	foreach (GameObject red in reds)
-	{
-		red.GetComponent<Rigidbody> ().AddForce (GetFlow(red.transform) * flowForce);
-	}
-	foreach (GameObject plat in plats)
-	{
-		plat.GetComponent<Rigidbody> ().AddForce (GetFlow(plat.transform) * flowForce * 0.85f);
-	}
-	if (player)
-	{
-		Vector2 dir = GetFlow(player.transform);
-		//Apply flow force to player if they are moving in the direction of the flow
-		if (playerMan.getInput().magnitude > 0 && Vector2.Dot(playerMan.getInput(), dir) > 0)
-			playerRig.AddForce (dir * flowForce * 9f);
-	}
+   foreach (GameObject red in reds)
+   {
+      red.GetComponent<Rigidbody> ().AddForce (GetFlow(red.transform) * flowForce);
+   }
+   foreach (GameObject plat in plats)
+   {
+      plat.GetComponent<Rigidbody> ().AddForce (GetFlow(plat.transform) * flowForce * 0.85f);
+   }
+   if (player)
+   {
+      Vector2 dir = GetFlow(player.transform);
+      //Apply flow force to player if they are moving in the direction of the flow
+      if (playerMan.getInput().magnitude > 0 && Vector2.Dot(playerMan.getInput(), dir) > 0)
+         playerRig.AddForce (dir * flowForce * 9f);
+   }
 }
 ```
 

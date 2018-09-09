@@ -3,7 +3,6 @@
 ---
 
 # Immunizer
-## Video
 
 ---
 

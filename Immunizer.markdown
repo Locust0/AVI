@@ -14,28 +14,31 @@ Created a game for my AI For Game Programming course. You play as a white blood 
 The function which pushes red blood cells away from eachother
 ```c#
 private void PushAway ()
+{
+	float angle = 0f;
+	Vector2 dir = new Vector2(0, 0);
+	Vector3 net = Vector3.zero;
+	
+	//Loop through all rays starting with angle = 0
+	for (int i = 0; i < numRays; i++)
 	{
-		float angle = 0f;
-		Vector2 dir = new Vector2(0, 0);
-		Vector3 net = Vector3.zero;
+		//Find direction of ray
+		dir.x = Mathf.Cos (angle);
+		dir.y = Mathf.Sin (angle);
 
-		for (int i = 0; i < numRays; i++)
+		//Cast ray in that direction
+		RaycastHit hit;
+		if (Physics.Raycast(transform.position, dir, out hit, rayDist, collisionMask))
 		{
-			dir.x = Mathf.Cos (angle);
-			dir.y = Mathf.Sin (angle);
-
-			//Debug.DrawRay(transform.position, dir * rayDist);
-			RaycastHit hit;
-			if (Physics.Raycast(transform.position, dir, out hit, rayDist, collisionMask))
-			{
-				net += hit.normal * (rayDist - hit.distance) / rayDist;
-			}
-
-			angle += Mathf.PI * 2 / numRays;
+			//Adjust net force to be applied by the distance to the target
+			net += hit.normal * (rayDist - hit.distance) / rayDist;
 		}
-		//Debug.DrawRay(transform.position, net, Color.blue);
-		rb.AddForce(net * pushForce);
+
+		angle += Mathf.PI * 2 / numRays;
 	}
+	//Apply force
+	rb.AddForce(net * pushForce);
+}
 ```
 
 ---

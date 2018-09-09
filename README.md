@@ -1,5 +1,7 @@
 # Projects
 - [Orbits](https://avijr.com/Orbits)
+- [Immunizer](https://avijr.com/Immunizer)
+- [Tournament](https://avijr.com/Tournament)
 
 
 ## Documentation

@@ -7,6 +7,8 @@
 - Nov 2014 – Mar 2018
 - Made with Unity and Javascript
 
+![Output sample](https://github.com/Polaros/AVI/raw/master/orbits.gif)
+
 ### Project Description
 In senior year of high school I started a game that I just finished a few months ago. It's a 2D space arcade game which features 10+ enemies, 100 unique levels featuring those enemies and 20 unique bosses which build on the themes of the surrounding levels. Check out the steam page!
 

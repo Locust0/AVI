@@ -72,14 +72,90 @@ function Orbit ()
          Mathf.Sin(Mathf.Atan(ex / wi)));
    }
    yield WaitForSeconds(0.2);
+   
    //Save starting velocity and distance for correction
    startingVel = GetComponent.<Rigidbody2D>().velocity.magnitude;
    startingDist = Mathf.Sqrt((ex * ex) + (wi * wi));
 }
 ```
 
+This function takes in current and original distance and speed then corrects them if they are too far off. It makes it look as though the AI is actively trying to stay in a stable orbit despite the player's push.
 ```javascript
-
+function CorrectOrbit()
+{
+   //Calculate the distance off from starting distance
+   ex = transform.position.x - (star1 ? star1.transform.position.x : attractor1.transform.position.x);
+   wi = transform.position.y - (star1 ? star1.transform.position.y : attractor1.transform.position.y);
+   var offsetDist : double = Mathf.Sqrt((ex * ex) + (wi * wi)) - startingDist;
+   var offsetVel : double = GetComponent.<Rigidbody2D>().velocity.magnitude - startingVel;
+	
+   //Break if the Orbit is beyond helping
+   if (offsetDist > 20 || offsetDist < -20 || offsetVel > 20 || offsetDist < -20)
+   {
+      CancelInvoke();
+      return;
+   }
+	
+   //Correct the distance
+   if (offsetDist > 3)
+   {
+      //Apply force towards planet
+      if (ex <= 0)
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+      }
+      else
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+      }
+   }
+   else if (offsetDist < -3)
+   {
+      //Apply force away from planet
+      if (ex <= 0)
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+      }
+      else
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(wi / ex)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(wi / ex)));
+      }
+   }
+	
+   //Correct the speed
+   if ((!reverse && offsetVel < -3) || (reverse && offsetVel > 3))
+   {
+      //Apply force counter clockwise
+      if (wi >= 0)
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+      }
+      else
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+      }
+   }
+   else if ((!reverse && offsetVel > 3) || (reverse && offsetVel < -3))
+   {
+      //Apply force clockwise
+      if (wi >= 0)
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * correction * Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+      }
+      else
+      {
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -correction * Mathf.Cos(Mathf.Atan(ex / wi)));
+         GetComponent.<Rigidbody2D>().AddForce (Vector2.up * correction * Mathf.Sin(Mathf.Atan(ex / wi)));
+      }
+   }
+}
 ```
 
 ---

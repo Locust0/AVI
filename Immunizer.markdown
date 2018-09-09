@@ -3,6 +3,9 @@
 ---
 
 # Immunizer
+
+![Output sample](https://github.com/Polaros/AVI/raw/master/immunizer.gif)
+
 - [Dropbox Link](https://www.dropbox.com/s/syenji5x857jasm/Immunizer.app.zip?dl=0)
 - Jan 2018 – May 2018
 - Made using Unity and C#

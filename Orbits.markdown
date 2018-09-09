@@ -27,7 +27,7 @@ function Orbit ()
    //location with respect to source of gravity
    var ex : double = 0;
    var wi : double = 0;
-   var gravity : double = 15d;
+   var gravity : double = 15;
 	
    ex = transform.position.x - 
       (star1 ? star1.transform.position.x : attractor1.transform.position.x);

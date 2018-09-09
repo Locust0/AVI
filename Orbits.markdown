@@ -72,6 +72,7 @@ function Orbit ()
          Mathf.Sin(Mathf.Atan(ex / wi)));
    }
    yield WaitForSeconds(0.2);
+   //Save starting velocity and distance for correction
    startingVel = GetComponent.<Rigidbody2D>().velocity.magnitude;
    startingDist = Mathf.Sqrt((ex * ex) + (wi * wi));
 }

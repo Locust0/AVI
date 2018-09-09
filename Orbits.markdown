@@ -24,7 +24,7 @@ function Orbit ()
    GetComponent.<Rigidbody2D>().velocity = Vector2.zero;
    GetComponent.<Rigidbody2D>().angularVelocity = 0;
 	
-   //Find variables
+   //location with respect to source of gravity
    var ex : double = 0;
    var wi : double = 0;
    var gravity : double = 15f;
@@ -36,8 +36,11 @@ function Orbit ()
    gravity = (star1 ? star1.gravity : attractor1.gravity);
 	
    //Find force for perfect orbit
-   var force : double = 62 * Mathf.Sqrt((200 * GetComponent.<Rigidbody2D>().mass
-      * gravity) / (Mathf.Sqrt((ex * ex) + (wi * wi))));
+   var force : double = 62 * Mathf.Sqrt((200 * 
+      GetComponent.<Rigidbody2D>().mass * gravity) / 
+      (Mathf.Sqrt((ex * ex) + (wi * wi))));
+   
+   //If the objects are on top of eachother - causing near infinite force
    if (force > 100000)
    {
       return;
@@ -45,28 +48,28 @@ function Orbit ()
 	
    //Split the required force into x and y components then apply them
    if (wi >= 0 && autoOrbit && !reverse) {
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -force
-         * Mathf.Cos(Mathf.Atan(ex / wi)));
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * force
-         * Mathf.Sin(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -force *
+         Mathf.Cos(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * force *
+         Mathf.Sin(Mathf.Atan(ex / wi)));
    }
    else if (wi >= 0 && autoOrbit && reverse) {
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * force
-         * Mathf.Cos(Mathf.Atan(ex / wi)));
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -force
-         * Mathf.Sin(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * force *
+         Mathf.Cos(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -force *
+         Mathf.Sin(Mathf.Atan(ex / wi)));
    }
    else if (wi < 0 && autoOrbit && !reverse) {
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * force
-         * Mathf.Cos(Mathf.Atan(ex / wi)));
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -force
-         * Mathf.Sin(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * force *
+         Mathf.Cos(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * -force *
+         Mathf.Sin(Mathf.Atan(ex / wi)));
    }
    else if (wi < 0 && autoOrbit && reverse) {
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -force
-         * Mathf.Cos(Mathf.Atan(ex / wi)));
-      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * force
-         * Mathf.Sin(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.right * -force *
+         Mathf.Cos(Mathf.Atan(ex / wi)));
+      GetComponent.<Rigidbody2D>().AddForce (Vector2.up * force *
+         Mathf.Sin(Mathf.Atan(ex / wi)));
    }
    yield WaitForSeconds(0.2);
    startingVel = GetComponent.<Rigidbody2D>().velocity.magnitude;

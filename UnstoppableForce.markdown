@@ -44,7 +44,8 @@ IEnumerator delayedAttacks ()
    {
       //Pick the vector to move along for this 1 second interval
       dir = -new Vector3 (transform.position.x - player.position.x, 
-		          transform.position.y - player.position.y, 0).normalized;
+         transform.position.y - player.position.y, 0).normalized;
+	 
       //Move for 1 second along this vector
       moving = true;
       yield return new WaitForSeconds (1);

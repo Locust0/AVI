@@ -42,9 +42,10 @@ private void PushAway (numRays)
 }
 ```
 
-The function which causes all red blood cells, platelets, and the player to be affected by the flow of the blood stream at their location
-Note that this only pushes the player if they are moving in the of the blood stream
-```C#
+The function which causes all red blood cells, platelets, and the player to be affected by the flow of the blood stream at their location.
+
+Note that this only pushes the player if they are moving in the of the blood stream.
+```c#
 public void OnFrame ()
 {
 	foreach (GameObject red in reds)

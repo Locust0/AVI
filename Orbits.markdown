@@ -4,7 +4,7 @@
 
 # Orbits
 
-![Output sample](https://github.com/Polaros/AVI/gifs/raw/master/orbits.gif)
+![Output sample](https://github.com/Polaros/AVI/raw/master/orbits.gif)
 
 - [Steampage](https://store.steampowered.com/app/719350/Orbits/)
 - Nov 2014 – Mar 2018

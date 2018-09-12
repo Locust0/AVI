@@ -44,6 +44,13 @@ I imagine life and undeath being on opposite ends of a line with death being in 
 ![Life_Death](/images/life_death.png)
 
 Giving life would push you away from the center while taking life would push you towards the center.
+In other words, you could damage the living by taking life or heal them by giving life, and for the undead you could damage them by giving life and heal them by taking life.
+
+### Puzzle Ideas
+
+1. Gather enough life energy from the environment to awaken a golemn to move it - then maybe kill it?
+2. Decompose a battlefield with spores then use that energy to regrow the plant life.
+3. 
 
 ---
 

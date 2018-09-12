@@ -25,17 +25,17 @@ I was (and still am) really inspired by the pacificsm of Undertale. Ideally, I c
 ### How might the powers interact?
 
 Drain life takes the life out of something.
-This could be used to sap away something alive *puzzle* or weaken an enemy trying to attack you *combat*.
+This could be used to sap away something alive (*puzzle*) or weaken an enemy trying to attack you (*combat*).
 
 Give life uses that life to fuel something.
-This could give life to a golemn / grow a plant *puzzle* or kill an undead creature *combat*.
+This could give life to a golemn / grow a plant (*puzzle*) or kill an undead creature (*combat*).
 
 Blow spores creates spores which turn dead matter into useable life energy.
-This could recycle energy from something dead *puzzle* or weaken an undead (or even alive) creature *combat*.
+This could recycle energy from something dead (*puzzle*) or weaken an undead (or even alive) creature (*combat*).
 
 Plant seed plants a seed.
-This could be used to grow something useful when supplied with sunlight, water and life *puzzle*.
-This could also maybe be used as defense - think cactus / venus fly trap *combat*.
+This could be used to grow something useful when supplied with sunlight, water and life (*puzzle*).
+This could also maybe be used as defense - think cactus / venus fly trap (*combat*).
 
 ### How do life, death, and undeath work?
 
@@ -48,9 +48,10 @@ In other words, you could damage the living by taking life or heal them by givin
 
 ### Puzzle Ideas
 
-1. Gather enough life energy from the environment to awaken a golemn to move it - then maybe kill it?
-2. Decompose a battlefield with spores then use that energy to regrow the plant life.
-3. 
+- Gather enough life energy from the environment to awaken a golemn to move it - then maybe kill it?
+- Decompose a battlefield with spores then use that energy to regrow the plant life.
+- Revive a corpse by giving life in order to get some information
+- Kill half of the rabbits in a garden to save it from being eaten (Thanos style!)
 
 ---
 

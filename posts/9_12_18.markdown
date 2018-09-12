@@ -3,9 +3,23 @@
 
 ---
 
-# Title
+# The Idea
 
-### Subheading
+So, I will be making a game with Unreal starting now.
+
+The idea is simple(ish):
+- First person puzzle game
+- You play as a druid
+- Your job is to keep balance
+- You have several powers:
+1. Drain life
+2. Give life
+3. Blow spores
+4. Plant seed
+
+### Pacificsm
+
+I was (and still am) really inspired by the pacificsm of Undertale. Ideally, I could replicate that amazing approach to interacting with npcs. In other words, rather than being constantly anatagonistic towards your enemies, you will solve puzzles to calm them.
 
 ---
 

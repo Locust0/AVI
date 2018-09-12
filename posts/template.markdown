@@ -12,6 +12,8 @@ Text
 
 Text
 
+![Image](/images/image.png)
+
 ```c#
 code
 ```

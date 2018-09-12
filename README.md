@@ -10,4 +10,4 @@
 - [Linkedin](https://www.linkedin.com/in/avi-rosenblum-52a267167/)
 
 # Dev Blog Posts
-- [September 12, 2018 - The Idea](https://avijr.com/posts/9_12_18)
+- [The Idea - September 12, 2018](https://avijr.com/posts/9_12_18)

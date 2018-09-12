@@ -4,8 +4,9 @@
 ---
 
 # The Idea
+## September 12, 2018
 
-So, I will be making a game with Unreal starting now.
+So, I will be making a game with Unreal starting now. Expect this initial idea to continuously change as I develop the game itself.
 
 The idea is simple(ish):
 - First person puzzle game
@@ -20,6 +21,21 @@ The idea is simple(ish):
 ### Pacificsm
 
 I was (and still am) really inspired by the pacificsm of Undertale. Ideally, I could replicate that amazing approach to interacting with npcs. In other words, rather than being constantly anatagonistic towards your enemies, you will solve puzzles to calm them.
+
+### How might the powers interact?
+
+Drain life takes the life out of something.
+This could be used to sap away something alive (puzzle) or weaken an enemy trying to attack you (combat).
+
+Give life uses that life to fuel something.
+This could give life to a golemn / grow a plant (puzzle) or kill an undead creature (combat).
+
+Blow spores creates spores which turn dead matter into useable life energy.
+This could recycle energy from something dead (puzzle) or weaken an undead (or even alive) creature (combat).
+
+Plant seed plants a seed.
+This could be used to grow something useful when supplied with sunlight, water and life (puzzle).
+This could also maybe be used as defense - think cactus / venus fly trap (combat).
 
 ---
 

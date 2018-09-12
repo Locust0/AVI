@@ -4,7 +4,7 @@
 
 # Untoppable Force
 
-![Output sample](https://github.com/Polaros/AVI/raw/master/unstoppable_force.gif)
+![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/unstoppable_force.gif)
 
 - [Dropbox Link](https://www.dropbox.com/s/ek98qgnpva1nrzj/UnstoppableForce.app.zip?dl=0)
 - October 2017

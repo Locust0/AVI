@@ -4,7 +4,7 @@
 
 # Tournament
 
-![Output sample](https://github.com/Polaros/AVI/raw/master/tournament.gif)
+![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/tournament.gif)
 
 - [Dropbox link](https://www.dropbox.com/s/zwcg1cjyjnwq4h7/Tournament.app.zip?dl=0)
 - Aug 2017 – Dec 2017

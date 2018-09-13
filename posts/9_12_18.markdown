@@ -20,7 +20,7 @@ The idea is simple(ish):
 
 ### Pacificsm
 
-I was (and still am) really inspired by the pacificsm of Undertale. Ideally, I could replicate that amazing approach to interacting with npcs. In other words, rather than being constantly anatagonistic towards your enemies, you will solve puzzles to calm them.
+I was (and still am) really inspired by the pacificsm of Undertale. Ideally, I could replicate that amazing approach to interacting with npcs. In other words, rather than being constantly anatagonistic towards your enemies, you will solve puzzles to calm them or maybe just avoid them.
 
 ### How might the powers interact?
 

@@ -2,7 +2,7 @@
 
 ---
 
-# Untoppable Force
+# Unstoppable Force
 
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/unstoppable_force.gif)
 

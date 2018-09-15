@@ -46,6 +46,12 @@ I imagine life and undeath being on opposite ends of a line with death being in 
 Giving life would push you away from the center while taking life would push you towards the center.
 In other words, you could damage the living by taking life or heal them by giving life, and for the undead you could damage them by giving life and heal them by taking life.
 
+### How does *Life energy* (name TBD) work
+
+Currently, I like the idea of being able to drain life and give life with your abilities. An additional property I like of this *Life energy* is that you have increased health when storing more and less when storing less.
+
+This could create some interesting puzzles in which you need to avoid damage for a while in order to carry as much *Life energy* as you can.
+
 ### Puzzle Ideas
 
 - Gather enough life energy from the environment to awaken a golemn to move it - then maybe kill it?

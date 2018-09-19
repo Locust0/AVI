@@ -44,7 +44,7 @@ I imagine life and undeath being on opposite ends of a line with death being in 
 ![Life_Death](/images/life_death.png)
 
 Giving life would push you away from the center while taking life would push you towards the center.
-In other words, you could damage the living by taking life or heal them by giving life, and for the undead you could damage them by giving life and heal them by taking life.
+In other words, you could damage the living by taking life or heal them by giving life, and for the undead you could damage them by giving life and *possibly* heal them by taking life.  I'm still unsure about the ability to take more life from something undead - that could allow you to gain "infinite" life from something dead.
 
 ### How does *Life energy* (name TBD) work
 

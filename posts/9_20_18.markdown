@@ -1,0 +1,31 @@
+
+[HOME](https://avijr.com)
+
+---
+
+# Learning Unreal
+## September 20, 2018
+
+I've been learning the basics of Unreal. My first goal is to prototype the abilities of the Druid (character). But rather than focus on that goal (like how I learned Unity), I'd rather learn the underlying systems first to have a more holistic understanding of the engine.
+
+### C++
+
+I haven't coded with C++ before but I have used C and C# a whole lot so the syntax is easy. The hard part of learning isn't the language itself but all the functions that are built into the engine and are necessary to do anything tangible.
+
+C++ in unreal is used to create components and actors (unity's gameobjects) which are created from a bunch of components.
+
+### Blueprints
+
+Blueprints are a mix of actors, components for those actors, unique values and visual scripting to create actors (ingame objects). The Unity equivalent seems to be a prefab (I will continue comparing to Unity because of my 5 years of experience with it). In other words, a blueprint pulls together a bunch of actors, gives them unique values, and addes visual scripting capabilities to an actor.
+
+
+
+![Image](/images/image.png)
+
+```cpp
+code
+```
+
+---
+
+[HOME](https://avijr.com)

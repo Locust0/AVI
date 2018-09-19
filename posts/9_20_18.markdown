@@ -14,9 +14,13 @@ I haven't coded with C++ before but I have used C and C# a whole lot so the synt
 
 C++ in unreal is used to create components and actors (unity's gameobjects) which are created from a bunch of components.
 
+### Actors
+
+Actors in Unreal are basically Gameobjects in Unity. They are created from a bunch of components
+
 ### Blueprints
 
-Blueprints are a mix of actors, components for those actors, unique values and visual scripting to create actors (ingame objects). The Unity equivalent seems to be a prefab (I will continue comparing to Unity because of my 5 years of experience with it). In other words, a blueprint pulls together a bunch of actors, gives them unique values, and addes visual scripting capabilities to an actor.
+Blueprints are a mix of actors, components for those actors, unique values for those components and visual scripting. The Unity equivalent seems to be a prefab (I will continue comparing to Unity because of my 5 years of experience with it). In other words, a blueprint pulls together a bunch of actors, gives them unique values, and addes visual scripting capabilities to an actor.
 
 
 

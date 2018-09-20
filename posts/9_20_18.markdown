@@ -8,6 +8,8 @@
 
 I've been learning the basics of Unreal. My first goal is to prototype the abilities of the Druid (character). But rather than focus on that goal (like how I learned Unity), I'd rather learn the underlying systems first to have a more holistic understanding of the engine.
 
+So, here are the basics of Unreal, summatized (and compared to Unity) to help me understand them more fully.
+
 ### C++
 
 I haven't coded with C++ before but I have used C and C# a whole lot so the syntax is easy. The hard part of learning isn't the language itself but all the functions that are built into the engine and are necessary to do anything tangible.
@@ -16,11 +18,11 @@ C++ in unreal is used to create components and actors (unity's gameobjects) whic
 
 ### Actors
 
-Actors in Unreal are basically Gameobjects in Unity. They are created from a bunch of components
+Actors in Unreal are basically Gameobjects in Unity. They are created from a bunch of components - think mesh components or custom-built components.
 
 ### Blueprints
 
-Blueprints are a mix of actors, components for those actors, unique values for those components and visual scripting. The Unity equivalent seems to be a prefab (I will continue comparing to Unity because of my 5 years of experience with it). In other words, a blueprint pulls together a bunch of actors, gives them unique values, and addes visual scripting capabilities to an actor.
+Blueprints are a mix of actors, components for those actors, unique values for those components and visual scripting. The Unity equivalent seems to be a prefab. In other words, a blueprint pulls together a bunch of actors, gives them unique values, and addes visual scripting capabilities to an actor.
 
 
 

@@ -10,5 +10,5 @@
 - [Linkedin](https://www.linkedin.com/in/avi-rosenblum-52a267167/)
 
 # Dev Blog Posts
-- [The Idea    - September 12, 2018](https://avijr.com/posts/9_12_18)
+- [The Idea - September 12, 2018](https://avijr.com/posts/9_12_18)
 - [Prototyping - September 20, 2018](https://avijr.com/posts/9_20_18)

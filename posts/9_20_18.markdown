@@ -32,7 +32,9 @@ Not a whole lot. The first thing I want to prototype is the character's abilties
 
 So far, I've managed to use visual scripting to draw a ray at what you are looking at and assign that actor to a value in script. I also have several functions which are called appropiately on button input.
 
-There's a whole lot of work to do before this becomes functional. Namely, I need the objects which can have their life sucked (suckable?) to all have some sort of component which the player can then identify and then refrence. Next I need to call that component's function(s) to actually take the life.
+### What I want to get done
+
+There's a whole lot of work to do before the abilities become functional. Namely, I need the objects which can have their life sucked (suckable?) to all have some sort of component which the player script can then identify and refrence. Next I need to call that component's function(s)' to actually take the life.
 
 Giving life will end up being technically identical but to be honest I kind of like the way Moira (Overwatch) heals people and may end up mimicking that method of "spraying" healing.
 

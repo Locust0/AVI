@@ -3,7 +3,7 @@
 
 ---
 
-# Learning Unreal
+# Prototyping
 ## September 20, 2018
 
 I've been learning the basics of Unreal. My first goal is to prototype the abilities of the Druid (character). But rather than focus on that goal (like how I learned Unity), I'd rather learn the underlying systems first to have a more holistic understanding of the engine.

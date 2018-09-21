@@ -36,9 +36,9 @@ So far, I've managed to use visual scripting to draw a ray at what you are looki
 
 There's a whole lot of work to do before the abilities become functional. Namely, I need the objects which can have their life sucked (suckable?) to all have some sort of component which the player script can then identify and refrence. Next I need to call that component's function(s)' to actually take the life.
 
-Giving life will end up being technically identical but to be honest I kind of like the way Moira (Overwatch) heals people and may end up mimicking that method of "spraying" healing.
+Giving life will end up being technically identical but to be honest I kind of like the way Moira (Overwatch) heals people and may end up mimicking that method of "spraying" healing instead.
 
-As for the seed plant & spore blow - it seems like if I'm allowing different seeds to be planted, why not have one of those be the spores - lowering the number of necessary buttons. The only problem with this, of course, is that I would need more buttons to select the seed you wanted to interact with.
+As for the seed plant & spore blow - if I'm allowing different seeds to be planted, why not have one of those be the spores? This would lower the number of necessary buttons. The only problem with this, of course, is that you would need more buttons to select the seed you wanted to interact with.
 
 Either way, for now I'm planning that, as a prototype, I will spawn some placeholder where the player is looking if that object meets certain conditions (think a fertile ground tag or something).
 

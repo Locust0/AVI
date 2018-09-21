@@ -8,7 +8,7 @@
 
 I've been learning the basics of Unreal. My first goal is to prototype the abilities of the Druid (character). But rather than focus on that goal (like how I learned Unity), I'd rather learn the underlying systems first to have a more holistic understanding of the engine.
 
-So, here are the basics of Unreal, summatized (and compared to Unity) to help me understand them more fully.
+So, here are the basics of Unreal, summarized (and compared to Unity) to help me understand them more fully.
 
 ### C++
 
@@ -18,19 +18,27 @@ C++ in unreal is used to create components and actors (unity's gameobjects) whic
 
 ### Actors
 
-Actors in Unreal are basically Gameobjects in Unity. They are created from a bunch of components - think mesh components or custom-built components.
+Actors in Unreal are basically Gameobjects in Unity. They are created from a bunch of components - think mesh components or custom-built components. They do everything in the world (although Actors controlled by input are called "pawns").
 
 ### Blueprints
 
-Blueprints are a mix of actors, components for those actors, unique values for those components and visual scripting. The Unity equivalent seems to be a prefab. In other words, a blueprint pulls together a bunch of actors, gives them unique values, and addes visual scripting capabilities to an actor.
+Blueprints are a mix of actors, components for those actors, unique values for those components and visual scripting. The Unity equivalent seems to be a prefab. In other words, a blueprint pulls together a bunch of actors, gives them unique values, and adds visual scripting capabilities to an actor.
 
+Visual scripting is amazing. It feels like a more intuitive version of programming. Granted, its far less powerful than regular code and also far more verbose. My understanding is that visual scripting combined with code can make things super convenient.
 
+### What have I done?
 
-![Image](/images/image.png)
+Not a whole lot. The first thing I want to prototype is the character's abilties. Because those abilities are quite complicated, just sitting down and creating them is difficult.
 
-```cpp
-code
-```
+So far, I've managed to use visual scripting to draw a ray at what you are looking at and assign that actor to a value in script. I also have several functions which are called appropiately on button input.
+
+There's a whole lot of work to do before this becomes functional. Namely, I need the objects which can have their life sucked (suckable?) to all have some sort of component which the player can then identify and then refrence. Next I need to call that component's function(s) to actually take the life.
+
+Giving life will end up being technically identical but to be honest I kind of like the way Moira (Overwatch) heals people and may end up mimicking that method of "spraying" healing.
+
+As for the seed plant & spore blow - it seems like if I'm allowing different seeds to be planted, why not have one of those be the spores - lowering the number of necessary buttons. The only problem with this, of course, is that I would need more buttons to select the seed you wanted to interact with.
+
+Either way, for now I'm planning that, as a prototype, I will spawn some placeholder where the player is looking if that object meets certain conditions (think a fertile ground tag or something).
 
 ---
 

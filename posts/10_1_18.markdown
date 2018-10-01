@@ -7,11 +7,15 @@
 # Drain and Give Life
 ## October 1, 2018
 
-Text
+I managed to get a functional version of the life system working in-game. You can hold left click on a cube with the life componenet added to give it life or hold right click to take its life. Once it reaches 0 health, it is dead completely.
 
-### Subheading
+### Visual Scripting
 
-Text
+I use the visual scripting system to cast a ray from the center of the screen forward when holding either left or right click. I look at what I hit and assign it and its life component to the C++ component.
+
+### C++ Coding
+
+The C++ components to this system are the life component and the new parts to the player script.
 
 ![Image](/images/image.png)
 

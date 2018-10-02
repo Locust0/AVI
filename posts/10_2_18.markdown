@@ -5,7 +5,7 @@
 ---
 
 # Drain and Give Life
-## October 1, 2018
+## October 2, 2018
 
 I managed to get a functional version of the life system working in-game. You can hold left click on a cube with the life componenet added to give it life or hold right click to take its life. Once it reaches 0 health, it is dead completely.
 
@@ -44,11 +44,14 @@ Here is a list of the boxes (functions):
 
 ### C++ Coding
 
-The C++ components to this system are the life component and the new parts to the player script.
+Below are the two main functions in the Life Component. The component stores various options and the current life. When the player holds left or right click, they will call these functions on their target (if that target has this component).
+
+Take life is simple, it takes in *amount* (how much life to drain per second) and converts that to *delta* which is how much to take per frame (assuming 60 FPS - this will be changed to be dynamic later). Next it checks if the Actor is alive and if it is, it sucks out life and returns how much was taken. If the Actor is dead, it returns 0.
 
 ```cpp
 float ULife::TakeLife(float amount)
 {
+	//Frame-specific value to take
 	float delta = amount * 1/60;
 
 	// If alive
@@ -66,6 +69,8 @@ float ULife::TakeLife(float amount)
 		{
 			float temp = life;
 			life = 0;
+			
+			//return exactly as much life as there was left
 			return temp;
 		}
 	}
@@ -73,6 +78,9 @@ float ULife::TakeLife(float amount)
 	return 0;
 }
 ```
+
+
+This function controls
 
 ```cpp
 float ULife::GiveLife(float amount)

@@ -17,7 +17,7 @@ Here's what the graph looks like:
 
 ![Raycasting](/images/player_raycasting.png)
 
-- <span style="color:red">Event Tick</span>: 
+- <span style="color:red">Event Tick</span>: &nbsp; stuff
 - <span style="color:red">Pressing Give Life</span>: 
 - <span style="color:red">Pressing Take Life</span>: 
 - <span style="color:white">Branch</span>: 

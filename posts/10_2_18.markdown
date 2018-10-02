@@ -19,7 +19,7 @@ Here's what the graph looks like:
 
 A note on how to read this: Nodes are rounded boxes and the lines which connect them show inputs and outputs. This graph has a bunch of different types of variable types which are all differently colored lines: <span style="color:#5DADE2">Actors</span>, <span style="color:#F61530">Booleans</span>, <span style="color:#EAEAEA">Control Signals</span>, <span style="color:#8AE457">Floats</span>, and  <span style="color:#E5CE0C">Vectors</span>
 
-Here is a list of the boxes (functions)
+Here is a list of the boxes (functions):
 
 - <span style="color:#F61530">Event Tick:</span> &nbsp; Called every frame - propogates to all connected nodes to tell them to activate. When a node recives this signal, it checks its required inputs and forces all those nodes to evaluate before it activates.
 - <span style="color:#F61530">Pressing Give Life:</span> &nbsp; Gets the player's script's variable *pressingGiveLife* and passes along that boolean value

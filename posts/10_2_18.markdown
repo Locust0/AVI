@@ -9,6 +9,8 @@
 
 I managed to get a functional version of the life system working in-game. You can hold left click on a cube with the life componenet added to give it life or hold right click to take its life. Once it reaches 0 health, it is dead completely.
 
+![Raycasting](/images/player_raycasting.png)
+
 ### Visual Scripting
 
 I use the visual scripting system to cast a ray from the center of the screen forward when holding either left or right click. I look at what I hit and assign it and its life component to the C++ component.
@@ -17,10 +19,69 @@ I use the visual scripting system to cast a ray from the center of the screen fo
 
 The C++ components to this system are the life component and the new parts to the player script.
 
-![Image](/images/image.png)
+```cpp
+float ULife::TakeLife(float amount)
+{
+	float delta = amount * 1/60;
 
-```c#
-code
+	// If alive
+	if (life > 0)
+	{
+		float newLife = life - delta;
+		// If alive and damaged
+		if (newLife >= 0)
+		{
+			life = newLife;
+			return delta;
+		}
+		// If alive and brought below 0 health
+		else if (newLife < 0 && life > 0)
+		{
+			float temp = life;
+			life = 0;
+			return temp;
+		}
+	}
+	//If dead
+	return 0;
+}
+```
+
+```cpp
+float ULife::GiveLife(float amount)
+{
+	float delta = amount * 1 / 60;
+	// Not dead
+	if (life != 0)
+	{
+		float newLife = life + delta;
+
+		// If undead
+		if (life < 0)
+		{
+			// If healed
+			if (newLife < 0)
+			{
+				life = newLife;
+				return delta;
+			}
+			// If brought above 0 life
+			else if (newLife >= 0)
+			{
+				float temp = life;
+				life = 0;
+				return -temp;
+			}
+		}
+		// If alive
+		else
+		{
+			life = newLife;
+			return delta;
+		}
+	}
+	return 0;
+}
 ```
 
 ---

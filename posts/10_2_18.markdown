@@ -4,7 +4,7 @@
 
 ---
 
-# Drain and Give Life
+# Draining and Giving Life
 ## October 2, 2018
 
 I managed to get a functional version of the life system working in-game. You can hold left click on a cube with the life componenet added to give it life or hold right click to take its life. Once it reaches 0 health, it is dead completely.

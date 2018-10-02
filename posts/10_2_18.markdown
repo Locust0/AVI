@@ -44,7 +44,7 @@ Here is a list of the boxes (functions):
 
 ### C++ Coding
 
-Below are the two main functions in the Life Component. The component stores various options and the current life. When the player holds left or right click, they will call these functions on their target (if that target has this component).
+Below are the two main functions in the Life Component. The component stores the current life and other various options. When the player holds left or right click, they will call these functions on their target (if that target has this component).
 
 Take life is simple, it takes in *amount* (how much life to drain per second) and converts that to *delta* which is how much to take per frame (assuming 60 FPS - this will be changed to be dynamic later). Next it checks if the Actor is alive and if it is, it sucks out life and returns how much was taken. If the Actor is dead, it returns 0.
 
@@ -80,7 +80,7 @@ float ULife::TakeLife(float amount)
 ```
 
 
-This function controls
+This function takes in *amount* and does the same delta conversion. Its a bit more complicated because it can effect the undead. If undead and the life will bring the Actor to 0 (dead), the Actor will "die." If the target is alive, they will simply store the extra life.
 
 ```cpp
 float ULife::GiveLife(float amount)

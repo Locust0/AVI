@@ -17,9 +17,20 @@ Here's what the graph looks like:
 
 ![Raycasting](/images/player_raycasting.png)
 
-Starting from the left-most node:
+- <span style="color:red">Event Tick</span>: 
+- <span style="color:red">Pressing Give Life</span>: 
+- <span style="color:red">Pressing Take Life</span>: 
+- <span style="color:white">Branch</span>: 
 - <span style="color:green">Get Player Camera's Manager</span>: 
-- 
+- <span style="color:green">Get Actor Location</span>: 
+- <span style="color:green">Get Actor Forward Vector</span>: 
+- <span style="color:green">Range</span>: 
+- <span style="color:blue">Line Trace By Channel</span>: 
+- <span style="color:green">Break Hit Result</span>: 
+- <span style="color:green">Get Component by class</span>: 
+- <span style="color:white">Branch</span>: 
+- <span style="color:white">Set (Target)</span>: 
+- <span style="color:white">Set (Life Component)</span>: 
 
 ### C++ Coding
 

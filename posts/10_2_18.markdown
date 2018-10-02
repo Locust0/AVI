@@ -25,7 +25,7 @@ Here's what the graph looks like:
 - <span style="color:green">Get Actor Location:</span> &nbsp; Gets that camera's location
 - <span style="color:green">Get Actor Forward Vector:</span> &nbsp; Gets that camera's forward vector (center of the screen)
 - <span style="color:green">Range:</span> &nbsp; Gets the variable range from the player's script - multiplied by the forward vector (which is normalized) to determine how far the raycast should go
-- <span style="color:blue">Line Trace By Channel:</span> &nbsp; Takes as inputs the camera's location and a distance forward from that position (determined by the forward vector * range)
+- <span style="color:#397DD8">Line Trace By Channel:</span> &nbsp; Takes as inputs the camera's location and a distance forward from that position (determined by the forward vector * range)
 - <span style="color:green">Break Hit Result:</span> &nbsp; Takes as input what we hit and outputs the specific Actor hit
 - <span style="color:green">Get Component by class:</span> &nbsp; Takes as input the Actor hit and outputs its *Life Component*. If it doesn't have one, it instead outputs NULL
 - <span style="color:white">Branch:</span> &nbsp; Branches to assign our target and life component if we actually hit something, otherwise it will still assign those values, but this time to null

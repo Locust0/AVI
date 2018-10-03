@@ -24,7 +24,7 @@ Here is a list of the boxes (functions):
 - <span style="color:#F61530">Event Tick:</span> &nbsp; Called every frame - propogates to all connected nodes to tell them to activate. When a node recives this signal, it checks its required inputs and forces all those nodes to evaluate before it activates.
 - <span style="color:#F61530">Pressing Give Life:</span> &nbsp; Gets the player's script's variable *pressingGiveLife* and passes along that boolean value
 - <span style="color:#F61530">Pressing Take Life:</span> &nbsp; Gets *pressingTakeLife*
-- <span style="color:white">Branch:</span> &nbsp; Branches to the line trace if either pressingGiveLife or pressingTakeLife is true but not if both are pressed
+- <span style="color:white">Branch:</span> &nbsp; Branches to the line trace if either *pressingGiveLife* or *pressingTakeLife* is true but not if both are pressed
 
 
 - <span style="color:#4AA350">Get Player Camera's Manager:</span> &nbsp; Gets a refrence to the player's camera
@@ -38,7 +38,7 @@ Here is a list of the boxes (functions):
 - <span style="color:#4AA350">Get Component by class:</span> &nbsp; Takes as input the Actor hit and outputs its *Life Component*. If it doesn't have one, it instead outputs NULL
 
 
-- <span style="color:white">Branch:</span> &nbsp; Branches to assign our target and life component if we actually hit something, otherwise it will still assign those values, but this time to null
+- <span style="color:white">Branch:</span> &nbsp; Branches to assign *target* and *lifeComponent* if we actually hit something, otherwise it will still assign those values, but this time to null
 - <span style="color:white">Set (Target):</span> &nbsp; Sets the variable *target* in the player's script
 - <span style="color:white">Set (Life Component):</span> &nbsp; Sets the variable *lifeComponent*. This variable is used when the script wants to actually call that component's functions to start taking or giving life (both functions below)
 

@@ -57,7 +57,7 @@ Most of the refrences to their magic involve their transformation into some sort
 So what sorts of abilities could come out of these ancient inspirations?
 
 - Planting seeds
-+ a must!
+  - a must!
 - something
 
 ![Image](/images/image.png)

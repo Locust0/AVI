@@ -37,7 +37,7 @@ Cons:
 - Might feel more like a waterbender than a druid
 - Taking water from a plant (or even animal) would still feel kinda evil
 
-### Burn Everything!
+### Scrap it
 
 The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks I'll replace it with more thematic abilities.
 

@@ -16,7 +16,6 @@ There are a couple of solutions to this that I've been considering:
 
 <br/>
 <br/>
-<br/>
 
 ### Drain Life doesn't affect animals
 
@@ -31,7 +30,8 @@ Cons:
 - You still feel a bit like a vampire
 - Most of the levels would need to be plant-less to force life to be meaningful
 
-
+<br/>
+<br/>
 
 ### Drain & Give *water*
 
@@ -43,7 +43,8 @@ Cons:
 - Might feel more like a waterbender than a druid
 - Taking water from a plant (or even animal) would still feel kinda evil
 
-
+<br/>
+<br/>
 
 ### Scrap it
 

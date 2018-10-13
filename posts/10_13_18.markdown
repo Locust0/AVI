@@ -48,7 +48,17 @@ Cons:
 
 ### Scrap it
 
-The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks I'll replace it with more thematic abilities.
+The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks, I'll replace it with more thematic abilities.
+
+Historically speaking, a druid is a kind of priest from Celtic myth. They have a couple core beliefs: Pacifism and Reincarnation.
+
+Most of the refrences to their magic involve their transformation into some sort of animal (partially or completely) or the transformation of an enemy into something. They were also known to hang out in forests and control the weather.
+
+So what sorts of abilities could come out of these ancient inspirations?
+
+- Planting seeds
+ - a must!
+- something
 
 ![Image](/images/image.png)
 

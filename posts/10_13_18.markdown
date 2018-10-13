@@ -13,7 +13,10 @@ Basically, because I've chosen abilities with mechanics in mind instead of story
 
 
 There are a couple of solutions to this that I've been considering:
-<br/>
+
+<br />
+<br />
+<br />
 ### Drain Life doesn't affect animals
 
 If I implement this, you can only drain plants.

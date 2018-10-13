@@ -46,9 +46,9 @@ Cons:
 <br/>
 <br/>
 
-### Scrap it
+## Scrap it
 
-The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks, I'll replace it with more thematic abilities.
+This is the most likely scenario. The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks, I'll replace it with more thematic abilities.
 
 Historically speaking, a druid is a kind of priest from Celtic myth. They have a couple core beliefs: Pacifism and Reincarnation.
 
@@ -56,15 +56,33 @@ Most of the refrences to their magic involve their transformation into some sort
 
 So what sorts of abilities could come out of these ancient inspirations?
 
+**** Normal abilities/spells:
 - Planting seeds
-  - a must!
-- something
+  - Makes for awesome potential puzzles
+  - Could also add to stealth?
+  - Thematically perfect
+- Full transform: Cat *Gain temporary camouflage*
+  - Perfect addition to stealth
+  - Should potentially be limited by time?
+  - Thematically perfect (maybe find another animal?)
+- Rain dance *Call down a rainstorm*
+  - Could lower enemy visibility
+  - Pressumably, would require some limited resource and/or a specific location
+  - Thematically perfect
+- Polymorph *Transform an enemy into an inconspicuous animal*
+  - Perfect for stealth sections
+  - Possibly long cast to not make OP
+  - Would act as a nonviolent takedown
+  - Perfect, thematically
+  
+**** Partial & Permanent Transformations
+These would act as upgrades and would be unlocked throughout the game
+- Cat's Claws: Enable wall jumps
+- Owl's Eyes: See where enemies are looking
+- Fish's Gills: Breathe underwater
+- Chameleon's Skin: Camouflage when not moving
+- Lion's Heart: Faster running or maybe longer sprinting times
 
-![Image](/images/image.png)
-
-```c#
-code
-```
 
 ---
 

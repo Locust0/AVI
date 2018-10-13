@@ -14,7 +14,9 @@ Basically, because I've chosen abilities with mechanics in mind instead of story
 
 There are a couple of solutions to this that I've been considering:
 
-## Drain Life doesn't affect animals
+
+
+### Drain Life doesn't affect animals
 
 If I implement this, you can only drain plants.
 
@@ -27,7 +29,9 @@ Cons:
 - You still feel a bit like a vampire
 - Most of the levels would need to be plant-less to force life to be meaningful
 
-## Drain & Give *water*
+
+
+### Drain & Give *water*
 
 Pros:
 - Easy to limit the resource (puddles)
@@ -37,7 +41,9 @@ Cons:
 - Might feel more like a waterbender than a druid
 - Taking water from a plant (or even animal) would still feel kinda evil
 
-## Scrap it
+
+
+### Scrap it
 
 The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks I'll replace it with more thematic abilities.
 

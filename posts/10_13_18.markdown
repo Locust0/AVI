@@ -56,7 +56,7 @@ Most of the refrences to their magic involve their transformation into some sort
 
 So what sorts of abilities could come out of these ancient inspirations?
 
-*** Normal abilities/spells:
+### Normal abilities/spells:
 - Planting seeds
   - Makes for awesome potential puzzles
   - Could also add to stealth?
@@ -75,7 +75,7 @@ So what sorts of abilities could come out of these ancient inspirations?
   - Would act as a nonviolent takedown
   - Perfect, thematically
   
-*** Partial & Permanent Transformations
+### Partial & Permanent Transformations
 These would act as upgrades and would be unlocked throughout the game
 - Cat's Claws: Enable wall jumps
 - Owl's Eyes: See where enemies are looking

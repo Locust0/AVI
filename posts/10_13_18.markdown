@@ -1,0 +1,25 @@
+
+[HOME](https://avijr.com)
+
+---
+
+# De-Vampirication
+## October 13, 2018
+
+A problem I've noticed with the current mechanics is that you can feel a bit like a vampire.
+
+Basically, because I've chosen abilities with mechanics in mind instead of story, I've inadvertently made a vampire instead of a druid. I still love the whole giving life thing
+
+### Subheading
+
+Text
+
+![Image](/images/image.png)
+
+```c#
+code
+```
+
+---
+
+[HOME](https://avijr.com)

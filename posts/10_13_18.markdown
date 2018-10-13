@@ -8,11 +8,38 @@
 
 A problem I've noticed with the current mechanics is that you can feel a bit like a vampire.
 
-Basically, because I've chosen abilities with mechanics in mind instead of story, I've inadvertently made a vampire instead of a druid. I still love the whole giving life thing
+Basically, because I've chosen abilities with mechanics in mind instead of story, I've inadvertently made a vampire instead of a druid. I still love the whole giving life thing but draining life out of things feels notably evil.
 
-### Subheading
 
-Text
+
+There are a couple of solutions to this that I've been considering:
+
+### Drain Life doesn't affect animals
+
+If I implement this, you can only drain plants.
+
+Pros:
+- Simple to implement
+- Forces the player to be a pacifist
+
+Cons:
+- Removes ability to kill enemies
+- You still feel a bit like a vampire
+- Most of the levels would need to be plant-less to force life to be meaningful
+
+### Drain & Give *water*
+
+Pros:
+- Easy to limit the resource (puddles)
+- Would make sense taking water from most things
+
+Cons:
+- Might feel more like a waterbender than a druid
+- Taking water from a plant (or even animal) would still feel kinda evil
+
+### Burn Everything!
+
+The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks I'll replace it with more thematic abilities.
 
 ![Image](/images/image.png)
 

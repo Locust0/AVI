@@ -54,19 +54,19 @@ Most of the refrences to their magic involve their transformation into some sort
 So what sorts of abilities could come out of these ancient inspirations?
 
 #### Normal abilities/spells:
-- Planting seeds
+- **Plant seeds**
   - Makes for awesome potential puzzles
   - Could also add to stealth?
   - Thematically perfect
-- Full transform: Cat *Gain temporary camouflage*
+- **Full transform: Cat** Gain temporary camouflage
   - Perfect addition to stealth
   - Should potentially be limited by time?
   - Thematically perfect (maybe find another animal?)
-- Rain dance *Call down a rainstorm*
+- **Rain dance** Call down a rainstorm
   - Could lower enemy visibility
   - Pressumably, would require some limited resource and/or a specific location
   - Thematically perfect
-- Polymorph *Transform an enemy into an inconspicuous animal*
+- **Polymorph** Transform an enemy into an inconspicuous animal
   - Perfect for stealth sections
   - Possibly long cast to not make OP
   - Would act as a nonviolent takedown
@@ -74,11 +74,11 @@ So what sorts of abilities could come out of these ancient inspirations?
   
 #### Partial & Permanent Transformations
 These would act as upgrades and would be unlocked throughout the game
-- Cat's Claws: Enable wall jumps
-- Owl's Eyes: See where enemies are looking
-- Fish's Gills: Breathe underwater
-- Chameleon's Skin: Camouflage when not moving
-- Lion's Heart: Faster running or maybe longer sprinting times
+- **Cat's Claws** Enable wall jumps
+- **Owl's Eyes** See where enemies are looking
+- **Fish's Gills** Breathe underwater
+- **Chameleon's Skin** Camouflage when not moving
+- **Lion's Heart** Faster running or maybe longer sprinting times
 
 
 ---

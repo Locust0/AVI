@@ -10,16 +10,13 @@ A problem I've noticed with the current mechanics is that you can feel a bit lik
 
 Basically, because I've chosen abilities with mechanics in mind instead of story, I've inadvertently made a vampire instead of a druid. I still love the whole giving life thing but draining life out of things feels notably evil.
 
-
-
 There are a couple of solutions to this that I've been considering:
 
-<br/>
 <br/>
 
 ### Drain Life doesn't affect animals
 
-If I implement this, you can only drain plants.
+If I implement this, you can only drain plants. This'll emphasize the nonviolence and still allow the killing of the undead.
 
 Pros:
 - Simple to implement
@@ -31,9 +28,10 @@ Cons:
 - Most of the levels would need to be plant-less to force life to be meaningful
 
 <br/>
-<br/>
 
-### Drain & Give *water*
+### Drain & Give *Water*
+
+Draw the water from the environment, plants or even enemies.
 
 Pros:
 - Easy to limit the resource (puddles)
@@ -44,9 +42,8 @@ Cons:
 - Taking water from a plant (or even animal) would still feel kinda evil
 
 <br/>
-<br/>
 
-## Scrap it
+### Scrap it
 
 This is the most likely scenario. The main reason I decided to add this ability is to enhance the problem solving. This is supposed to be a puzzle / stealth game so I need some abilities to augment those things. But, if it turns out that this mechanic sucks, I'll replace it with more thematic abilities.
 
@@ -56,7 +53,7 @@ Most of the refrences to their magic involve their transformation into some sort
 
 So what sorts of abilities could come out of these ancient inspirations?
 
-### Normal abilities/spells:
+#### Normal abilities/spells:
 - Planting seeds
   - Makes for awesome potential puzzles
   - Could also add to stealth?
@@ -75,7 +72,7 @@ So what sorts of abilities could come out of these ancient inspirations?
   - Would act as a nonviolent takedown
   - Perfect, thematically
   
-### Partial & Permanent Transformations
+#### Partial & Permanent Transformations
 These would act as upgrades and would be unlocked throughout the game
 - Cat's Claws: Enable wall jumps
 - Owl's Eyes: See where enemies are looking

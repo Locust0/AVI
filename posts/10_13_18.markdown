@@ -79,6 +79,7 @@ These would act as upgrades and would be unlocked throughout the game
 - **Fish's Gills:** Breathe underwater
 - **Chameleon's Skin:** Camouflage when not moving
 - **Lion's Heart:** Faster running or maybe longer sprinting times
+- **Raven's Wings:** Double jump
 
 
 ---

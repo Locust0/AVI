@@ -13,3 +13,4 @@
 - [The Idea - September 12, 2018](https://avijr.com/posts/9_12_18)
 - [Prototyping - September 20, 2018](https://avijr.com/posts/9_20_18)
 - [Draining and Giving Life - October 2, 2018](https://avijr.com/posts/10_2_18)
+- [De-Vampirication - October 13, 2018](https://avijr.com/posts/10_13_18)

@@ -11,11 +11,21 @@ I've been learning how to make shaders with unreal by following a few tutorials 
 ### Lava
 [Link to the Youtube tutorial](https://www.youtube.com/watch?v=bIvjz3A3anQ)
 
-The only animated shader, this shader uses 2 textures: a fire texture and a normal map
+The only animated shader, this shader uses 2 textures: a fire texture and a normal map along with 3 panning coordinates.
 
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/lava.gif)
 
+Essentially, a small fire texture is a base for the shader. Over that there is a mask which causes the lava to darken in places which correspond to the normal map of the object.
+
 ![Image](/images/lava_shader.png)
+
+The normal map on the top is used as expected, to determine the light scattering on the surface of the object.
+
+The middle texture is used as a base for the color emission of the lava.
+
+The lower fire texture is panned across at the same rate as the normal map. The red colors of both are added to be used as a mask for the smaller lava texture.
+
+There are 2 inputs (in light green) which correspond to the scale of the shader and its brightness. The cube in the center has its brightness turned up as an example.
 
 ### Ice
 [Link to the Youtube tutorial](https://www.youtube.com/watch?v=sE64iTjnoUM)

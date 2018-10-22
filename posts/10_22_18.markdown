@@ -6,15 +6,19 @@
 # Shader Practice
 ## October 22, 2018
 
-Text
+I've been learning how to make shaders with unreal by following a few tutorials online.
 
 ### Lava
+
+The only animated shader, this shader uses 2 textures: a fire texture and 
 
 ![Image](/images/lava.png)
 
 ![Image](/images/lava_shader.png)
 
 ### Ice
+
+[Link to the Youtube tutorial](https://www.youtube.com/watch?v=sE64iTjnoUM&index=43&list=PLqlQoSJ_RUdaMCik7N5IZLGZmuQGDLAlQ)
 
 ![Image](/images/ice.png)
 

@@ -10,6 +10,8 @@ I've been learning how to make shaders with unreal by following a few tutorials 
 
 ### Lava
 
+[Link to the Youtube tutorial](https://www.youtube.com/watch?v=bIvjz3A3anQ)
+
 The only animated shader, this shader uses 2 textures: a fire texture and 
 
 ![Image](/images/lava.png)
@@ -18,13 +20,15 @@ The only animated shader, this shader uses 2 textures: a fire texture and
 
 ### Ice
 
-[Link to the Youtube tutorial](https://www.youtube.com/watch?v=sE64iTjnoUM&index=43&list=PLqlQoSJ_RUdaMCik7N5IZLGZmuQGDLAlQ)
+[Link to the Youtube tutorial](https://www.youtube.com/watch?v=sE64iTjnoUM)
 
 ![Image](/images/ice.png)
 
 ![Image](/images/ice_shader.png)
 
 ### Outline
+
+[Link to the Youtube tutorial](https://www.youtube.com/watch?v=rL7VUeZzRyQ)
 
 ![Image](/images/outline.png)
 

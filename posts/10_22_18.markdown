@@ -13,7 +13,7 @@ I've been learning how to make shaders with unreal by following a few tutorials 
 
 The only animated shader, this shader uses 2 textures: a fire texture and 
 
-![Image](/images/lava.png)
+![Image](/gifs/lava.png)
 
 ![Image](/images/lava_shader.png)
 

@@ -27,6 +27,7 @@ The lower fire texture is panned across at the same rate as the normal map. The 
 
 There are 2 inputs (in light green) which correspond to the scale of the shader and its brightness. The cube in the center has its brightness turned up as an example.
 
+---
 ### Ice
 [Link to the Youtube tutorial](https://www.youtube.com/watch?v=sE64iTjnoUM)
 

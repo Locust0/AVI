@@ -3,20 +3,28 @@
 
 ---
 
-# Title
+# Shader Practice
 ## October 22, 2018
 
 Text
 
-### Subheading
+### Lava
 
-Text
+![Image](/images/lava.png)
 
-![Image](/images/image.png)
+![Image](/images/lava_shader.png)
 
-```c#
-code
-```
+### Ice
+
+![Image](/images/ice.png)
+
+![Image](/images/ice_shader.png)
+
+### Outline
+
+![Image](/images/outline.png)
+
+![Image](/images/outline_shader.png)
 
 ---
 

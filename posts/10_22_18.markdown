@@ -11,7 +11,7 @@ I've been learning how to make shaders with unreal by following a few tutorials 
 ### Lava
 [Link to the Youtube tutorial](https://www.youtube.com/watch?v=bIvjz3A3anQ)
 
-The only animated shader, this shader uses 2 textures: a fire texture and 
+The only animated shader, this shader uses 2 textures: a fire texture and a normal map
 
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/lava.gif)
 

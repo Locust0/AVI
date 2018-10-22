@@ -31,11 +31,11 @@ There are 2 inputs (in light green) which correspond to the scale of the shader 
 ### Ice
 [Link to the Youtube tutorial](https://www.youtube.com/watch?v=sE64iTjnoUM)
 
-This ice shader uses a randomized base color, randomized roughness (to make it appear imperfect / rocky), a combination of rock and sand as a normal map and a vertex shader to create icicles on the bottom.
+This is an awesome ice shader which has a nice blueish shimmer and icicles which are added dynamically.
 
 ![Image](/images/ice.png)
 
-
+This ice shader uses a randomized base color, randomized roughness (to make it appear imperfect / rocky), a combination of rock and sand as a normal map and a vertex shader to create icicles on the bottom.
 
 ![Image](/images/ice_shader.png)
 

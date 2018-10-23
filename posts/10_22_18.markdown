@@ -65,7 +65,10 @@ On a high level, this shader checks pixels which are not a part of the object. I
 
 First up, on the left we calculate the current pixel position's x and y coordinates.
 
-Next, we find the coordinates of that pixel's neighbors by adding (x, 0), (-x, 0), (0, y), (0, -y), and the diagonals: (x, y), (-x, y), (x, -y), (-x, -y) where x and y are the distance to check in a given direction.
+Next, we find the coordinates of that pixel's neighbors by adding:
+(x, 0), (-x, 0), (0, y), (0, -y)
+(x, y), (-x, y), (x, -y), (-x, -y)
+where x and y are the distance to check in a given direction.
 
 Now we find the depth of all of those neighbor pixels - this basically returns > 100 for pixels with the object and < 10 for other pixels. In other words, we now have a value for every pixel which represents how many of those pixel's neighbors are a part of the object.
 

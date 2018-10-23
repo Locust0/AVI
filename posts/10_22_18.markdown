@@ -67,9 +67,10 @@ First up, on the left we calculate the current pixel position's x and y coordina
 
 Next, we find the coordinates of that pixel's neighbors by adding:
 
+```cpp
 (x, 0), (-x, 0), (0, y), (0, -y)
-
 (x, y), (-x, y), (x, -y), (-x, -y)
+```
 
 where x and y are the distance to check in a given direction.
 

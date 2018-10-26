@@ -74,6 +74,9 @@ So what sorts of abilities could come out of these ancient inspirations?
   - Possibly long cast to not make OP
   - Would act as a nonviolent takedown
   - Perfect, thematically
+- **Plant transport:** Touch a special plant or create a plant to act as a fast travel location
+  - Super important for utility
+  - Would open up the world for reuse or more exploration
   
 ### Partial & Permanent Transformations
 These would act as upgrades and would be unlocked throughout the game

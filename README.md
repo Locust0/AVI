@@ -15,3 +15,4 @@
 - [Draining and Giving Life - October 2, 2018](https://avijr.com/posts/10_2_18)
 - [De-Vampirication - October 13, 2018](https://avijr.com/posts/10_13_18)
 - [Shader Practice - October 22, 2018](https://avijr.com/posts/10_22_18)
+- [Converting a blueprint to C++ - November 13, 2018](https://avijr.com/posts/11_13_18)

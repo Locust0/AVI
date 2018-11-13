@@ -3,16 +3,22 @@
 
 ---
 
-# Title
+# Converting a blueprint to C++
 ## November 13, 2018
 
-Text
+This week I converted some blueprint visual scripting to actual C++ code. There're a few reasons why you'd want to do this, mainly:
+- More control over the implementation
+- Easier and faster to make modifications
+- Faster in general (although in theory the blueprint code will be converted into C++ anyway)
+- More extensible (you can copy and paste code, not visual scripting)
 
-### Subheading
+### Breakdown
 
-Text
+First up, here's a look at my "lookingAt" function built with visual scripting:
 
 ![Image](/images/looking_at_blueprint.png)
+
+Basically, starting from the left, I grab the camera. I extract its position and forward vector. Its forward vector is multiplied by 1000 (to cover what's in front of us) then added to the starting position. This creates our starting and ending positions for the vector trace. From there I do the vector cast with that giant function. Next I take what that raycast hit and break it up into only the actor we hit (if any). Finally, I assign the variable lookingAt to whatever actor we hit and if we didn't hit anything, it becomes null.
 
 ```cpp
 void ADruidCharacter::LookingAt()

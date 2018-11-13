@@ -12,26 +12,41 @@ This week I converted some blueprint visual scripting to actual C++ code. There'
 - Faster in general (although in theory the blueprint code will be converted into C++ anyway)
 - More extensible (you can copy and paste code, not visual scripting)
 
-### Breakdown
+### Visual Scripting
 
-First up, here's a look at my "lookingAt" function built with visual scripting:
+First up, here's a look at my "lookingAt" function built with visual scripting (note this is basically the same as the blueprint I showed from earlier):
 
 ![Image](/images/looking_at_blueprint.png)
 
+Here's a quick refresher on exactly what's happening:
+
 Basically, starting from the left, I grab the camera. I extract its position and forward vector. Its forward vector is multiplied by 1000 (to cover what's in front of us) then added to the starting position. This creates our starting and ending positions for the vector trace. From there I do the vector cast with that giant function. Next I take what that raycast hit and break it up into only the actor we hit (if any). Finally, I assign the variable lookingAt to whatever actor we hit and if we didn't hit anything, it becomes null.
 
+### C++ Code
+
+First up, Unreal has a weird requirement that every function in a class explicitly refer to the class its a part of, in this case: ADruidCharacter.
 ```cpp
 void ADruidCharacter::LookingAt()
+```
+
+Next, we've got two empty variables, *hit* stores the result of the raycast and *collisionParams* is just there to act as the default paramaters for the raycast.
+```cpp
 {
   // Stores what we hit
   FHitResult hit;
   // Stores the paramaters needed for the raycast
   FCollisionQueryParams collisionParams;
-  
+```
+
+Next we assign *UCamera* and *ACamera* which are the camera component and its actor. The U prefix denotes the fact that the CameraComponet is a subclass of ActorComponent ([Documentation](https://api.unrealengine.com/INT/API/Runtime/Engine/Components/UActorComponent/index.html)). The A prefix denotes a subclass of Actor (or in the case, just Actor) ([Documentation](https://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/AActor/index.html)).
+```cpp
   // Our camera component & its owner (us)
   UCameraComponent *UCamera = this->FindComponentByClass<UCameraComponent>();
   AActor *ACamera = UCamera->GetOwner();
-  
+```
+
+
+```cpp  
   // Start at our location
   FVector start = ACamera->GetActorLocation();
   // End at where we are looking plus our location

@@ -17,7 +17,36 @@ Text
 ![Image](/images/looking_at_code.png)
 
 ```cpp
-code
+void ADruidCharacter::LookingAt()
+{
+  // Stores what we hit
+  FHitResult hit;
+  // FCollisionQueryParams collisionParams;
+  
+  // Our camera component & its owner (us)
+  UCameraComponent *UCamera = this->FindComponentByClass<UCameraComponent>();
+  AActor *ACamera = UCamera->GetOwner();
+  
+  // Start at our location
+  FVector start = ACamera->GetActorLocation();
+  // End at where we are looking plus our location
+  FVector end = (UCamera->GetForwardVector() * 1000) + start;
+  
+  // Debug line drawing
+  DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 0.1, 0, 1)
+  
+  // Actual line cast
+  if (GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
+  {
+    // If we hit something solid
+    if (hit.bBlockingHit)
+      lookingAt = hit.GetActor();
+    else
+      lookingAt = nullptr;
+  }
+  else
+    lookingAt = nullptr;
+}
 ```
 
 ---

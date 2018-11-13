@@ -27,37 +27,56 @@ Basically, starting from the left, I grab the camera. I extract its position and
 First up, Unreal has a weird requirement that every function in a class explicitly refer to the class its a part of, in this case: ADruidCharacter.
 ```cpp
 void ADruidCharacter::LookingAt()
+{
 ```
 
 Next, we've got two empty variables, *hit* stores the result of the raycast and *collisionParams* is just there to act as the default paramaters for the raycast.
 ```cpp
-{
   // Stores what we hit
   FHitResult hit;
   // Stores the paramaters needed for the raycast
   FCollisionQueryParams collisionParams;
 ```
 
-Next we assign *UCamera* and *ACamera* which are the camera component and its actor. The U prefix denotes the fact that the CameraComponet is a subclass of ActorComponent ([Documentation](https://api.unrealengine.com/INT/API/Runtime/Engine/Components/UActorComponent/index.html)). The A prefix denotes a subclass of Actor (or in the case, just Actor) ([Documentation](https://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/AActor/index.html)).
+Next we assign *UCamera* which is the camera component. The U prefix denotes the fact that the CameraComponet is a subclass of ActorComponent ([Documentation](https://api.unrealengine.com/INT/API/Runtime/Engine/Components/UActorComponent/index.html)).
 ```cpp
-  // Our camera component & its owner (us)
+  // Our camera component
   UCameraComponent *UCamera = this->FindComponentByClass<UCameraComponent>();
+```
+
+Now we assign ACamera which is the Actor UCamera is attatched to. The A prefix denotes a subclass of Actor (or in the case, just Actor) ([Documentation](https://api.unrealengine.com/INT/API/Runtime/Engine/GameFramework/AActor/index.html)).
+```cpp
+  // Camera's owner (us)
   AActor *ACamera = UCamera->GetOwner();
 ```
 
-
+Next we find the starting location for the raycast, the position of the camera.
 ```cpp  
   // Start at our location
   FVector start = ACamera->GetActorLocation();
+```
+
+The ending location is found the same way, with the forward vector of the camera component * 1000 + the starting location.
+```cpp
   // End at where we are looking plus our location
   FVector end = (UCamera->GetForwardVector() * 1000) + start;
-  
+```
+
+There's a green debuging line draw here to make sure everything works.
+```cpp
   // Debug line drawing
   DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 0.1, 0, 1)
-  
+```
+
+Now we cast the actual ray from start to end. It outputs to the variable *hit* and also needs *collisionParams* as an input despite it being basically empty.
+```cpp
   // Actual line cast
   if (GetWorld()->LineTraceSingleByChannel(hit, start, end, 
     ECC_Visibility, collisionParams))
+```
+
+The inside of the if statement activates on any hit so we first need to make sure we hit something actually solid. If we did, we then assign lookingAt to the Actor we hit. Otherwise, its set to null. Additionally, if the raycast completely failed to hit anything, the bottom else statement catches that and assigns *lookingAt* to still be null. Note that Unreal uses *nullptr* instead of *NULL* for performance reasons.
+```cpp
   {
     // If we hit something solid
     if (hit.bBlockingHit)
@@ -69,6 +88,14 @@ Next we assign *UCamera* and *ACamera* which are the camera component and its ac
     lookingAt = nullptr;
 }
 ```
+
+### Conclusion
+
+The general workflow for designing new features in Unreal tends to involve first prototyping with blueprints and then actually coding to ensure speed.
+
+Next I'll be figuring how to make interactable objects glow when looked at. I already have a shader which will work and a way to tell that object its being looked at but I don't know how to access its shader or affect those shader's parameters.
+
+After that I'll be adding a new class of interactable objects - trees. These should freeze the player and change their position to inside of themselves when interacted with. Basically so you can "merge" with the tree. From inside, you should be able to exit in any direction or transfer to another nearby tree.
 
 ---
 

@@ -75,7 +75,7 @@ Now we cast the actual ray from start to end. It outputs to the variable *hit* a
     ECC_Visibility, collisionParams))
 ```
 
-The inside of the if statement activates on any hit so we first need to make sure we hit something actually solid. If we did, we then assign lookingAt to the Actor we hit. Otherwise, its set to null. Additionally, if the raycast completely failed to hit anything, the bottom else statement catches that and assigns *lookingAt* to still be null. Note that Unreal uses *nullptr* instead of *NULL* for performance reasons.
+The inside of the if statement activates on any hit so we first need to make sure we hit something actually solid. If we did, we then assign lookingAt to the Actor we hit. Otherwise, its set to *nullptr*. Additionally, if the raycast completely failed to hit anything, the bottom else statement catches that and assigns *lookingAt* to still be null. Note that Unreal uses *nullptr* instead of *NULL* for performance reasons.
 ```cpp
   {
     // If we hit something solid

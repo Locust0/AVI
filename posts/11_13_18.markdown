@@ -19,7 +19,8 @@ void ADruidCharacter::LookingAt()
 {
   // Stores what we hit
   FHitResult hit;
-  // FCollisionQueryParams collisionParams;
+  // Stores the paramaters needed for the raycast
+  FCollisionQueryParams collisionParams;
   
   // Our camera component & its owner (us)
   UCameraComponent *UCamera = this->FindComponentByClass<UCameraComponent>();

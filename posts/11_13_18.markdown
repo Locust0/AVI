@@ -14,8 +14,6 @@ Text
 
 ![Image](/images/looking_at_blueprint.png)
 
-![Image](/images/looking_at_code.png)
-
 ```cpp
 void ADruidCharacter::LookingAt()
 {
@@ -36,7 +34,8 @@ void ADruidCharacter::LookingAt()
   DrawDebugLine(GetWorld(), start, end, FColor::Green, false, 0.1, 0, 1)
   
   // Actual line cast
-  if (GetWorld()->LineTraceSingleByChannel(hit, start, end, ECC_Visibility, collisionParams))
+  if (GetWorld()->LineTraceSingleByChannel(hit, start, end, 
+    ECC_Visibility, collisionParams))
   {
     // If we hit something solid
     if (hit.bBlockingHit)

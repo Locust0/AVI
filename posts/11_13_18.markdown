@@ -16,7 +16,7 @@ Text
 
 ![Image](/images/looking_at_code.png)
 
-```c#
+```cpp
 code
 ```
 

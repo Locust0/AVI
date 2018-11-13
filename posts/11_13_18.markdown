@@ -12,7 +12,9 @@ Text
 
 Text
 
-![Image](/images/image.png)
+![Image](/images/looking_at_blueprint.png)
+
+![Image](/images/looking_at_code.png)
 
 ```c#
 code

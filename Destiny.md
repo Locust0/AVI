@@ -2,9 +2,9 @@
 
 ---
 
-# Immunizer
+# Destiny 2 - Black Armory
 
-![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/immunizer.gif)
+![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/bar_tilt.gif)
 
 - [Dropbox Link](https://www.dropbox.com/s/syenji5x857jasm/Immunizer.app.zip?dl=0)
 - Jan 2018 – May 2018

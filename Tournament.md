@@ -24,14 +24,14 @@ private IEnumerator SpawnDrones ()
       //Find total distance through which we can spawn drones
       float totalDist = maxX - minX;
 
-      //Find the maximum seperation we can manage with the current
+      //Find the maximum separation we can manage with the current
       //number of drones
       float maxSep = totalDist / (groupSize - 1);
 
-      //Pick a seperation value between min and max
+      //Pick a separation value between min and max
       float sep = Random.Range (minSep, maxSep);
 
-      //How much distance will we cover with this seperation?
+      //How much distance will we cover with this separation?
       float distCovered = (groupSize - 1) * sep;
 
       //find the maximum dif from which we can start spawning drones
@@ -45,7 +45,7 @@ private IEnumerator SpawnDrones ()
       Vector2 pos = new Vector2(minX + dif, y);
       for (int i = 0; i < groupSize; i++)
       {
-         //Spawn drone at the position and then add the seperation
+         //Spawn drone at the position and then add the separation
          //to that position
          Instantiate(drone, pos, transform.rotation);
          pos.x += sep;
@@ -82,11 +82,11 @@ public List<Obstacle> PickRandomBoard ()
       int tempX = Random.Range (0, ex);
       int tempY = Random.Range (0, wi);
 			
-      //Check if its taken
+      //Check if it’s taken
       if (taken[tempX, tempY])
          continue;
 
-      //Find the real world coordinates
+      //Find the real-world coordinates
       float x = (tempX - (xRange.y / spacing)) * spacing;
       float y = (tempY - (yRange.y / spacing)) * spacing;
 			

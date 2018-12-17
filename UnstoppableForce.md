@@ -11,7 +11,7 @@
 - Made using Unity and C#
 
 ### Project Description
-4 teamates and I made this game for a gamejam. I did most of the programming and work with integrating the artists' work into the game. You play as a scared man running from an unstoppable Lovecraftian monster on the left, forcing you right. The game features platforming and a few varieties of enemies plus spike & flame traps.
+4 teammates and I made this game for a gamejam. I did most of the programming and work with integrating the artists' work into the game. You play as a scared man running from an unstoppable Lovecraftian monster on the left, forcing you right. The game features platforming and a few varieties of enemies plus spike & flame traps.
 
 ### Code Example
 This is the code for the very basic floating skull enemies. They wait until triggered. Then, they chase you for 1 second and freeze for 1 second until they've exhausted their maximum number of tries. Then they explode.
@@ -25,7 +25,7 @@ void Update ()
       //Start attacks
       StartCoroutine (delayedAttacks ());
    }
-   //If its time for the skull to chase the player
+   //If it’s time for the skull to chase the player
    if (moving)
    {
       //Move towards the player

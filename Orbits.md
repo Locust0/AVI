@@ -8,13 +8,13 @@
 
 - [Steampage](https://store.steampowered.com/app/719350/Orbits/)
 - Nov 2014 – Mar 2018
-- Made with Unity and Javascript
+- Made with Unity and JavaScript
 
 ### Project Description
-In senior year of high school I started a game that I just finished a few months ago. It's a 2D space arcade game which features 10+ enemies, 100 unique levels featuring those enemies and 20 unique bosses which build on the themes of the surrounding levels. Check out the steam page!
+In senior year of high school, I started a game that I just finished a few months ago. It's a 2D space arcade game which features 10+ enemies, 100 unique levels featuring those enemies and 20 unique bosses which build on the themes of the surrounding levels. Check out the steam page!
 
 ### Code Examples
-Possibly my favorite bit of code I've ever written, this puts any object into a perfectly circular orbit around a nearby center of gravity. It also saves the starting velocity and distance of that orbit so they can be corrected if altered.
+Possibly my favorite bit of code I've ever written, this puts any object into a perfectly circular orbit around a nearby center of gravity. It also saves the starting velocity and distance of that orbit, so they can be corrected if altered.
 ```javascript
 function Orbit ()
 {
@@ -43,7 +43,7 @@ function Orbit ()
       GetComponent.<Rigidbody2D>().mass * gravity) / 
       (Mathf.Sqrt((ex * ex) + (wi * wi))));
    
-   //If the objects are on top of eachother - causing near infinite force
+   //If the objects are on top of each other - causing near infinite force
    if (force > 100000)
    {
       return;

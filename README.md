@@ -8,6 +8,7 @@
 # Important Stuff
 - Email: nightremor@gmail.com
 - [Resume](https://documentcloud.adobe.com/link/track?uri=urn%3Aaaid%3Ascds%3AUS%3A66ecd147-8afc-4719-b50d-616a2971dfba)
+- [Resume](https://avijr.com/pdfs/Resume.pdf)
 - [Linkedin](https://www.linkedin.com/in/avi-rosenblum-52a267167/)
 
 # Dev Blog Posts

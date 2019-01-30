@@ -14,9 +14,9 @@
 ### BAR Shields
 
 I created numerous variations of the black armory shield using Grognok and Bonobo. The one above is the Tilt shield. The released versions include:
-- Basic: which has the drones moving in a very perdictable pattern circling the target
-- Tilt: which has drones orbit target as if on a spinning plane
-- Teleport: which has the drones teleport higher or lower when damaged
+- Basic: which has the drones moving in a very perdictable pattern circling the target - its used as the shield around the crates in the sabateur encounters (but with only 1 drone) and as the final boss's shield in the Volundr forge
+- Tilt: which has drones orbit target as if on a spinning plane - its used as the shield of all the sabateurs
+- Teleport: which has the drones teleport higher or lower when damaged - its used as the shield for the final boss of the Gofannon forge
 
 To create these shields, I worked with:
 - Designers: to adjust and balance the shields and help them place the shields into the world
@@ -26,6 +26,8 @@ To create these shields, I worked with:
 - Programmers: to stop the drones from inheriting the rotation of their parent (target)
 - Network engineers: to help me get the shields to work in a networked environment
 - Animators: to move the drones in a way that would better work in networked conditions
+
+![Image](https://github.com/Polaros/AVI/raw/master/images/vg247.png)
 
 ### Sabateur Encounters
 

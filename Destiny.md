@@ -19,6 +19,7 @@ I created numerous variations of the black armory shield using Grognok and Bonob
 - Teleport: which has the drones teleport higher or lower when damaged - its used as the shield for the final boss of the Gofannon forge
 
 ![Image](https://github.com/Polaros/AVI/raw/master/images/vg247.png)
+
 Image courtesy of VG24/7
 
 To create these shields, I worked with:

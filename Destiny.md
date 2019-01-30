@@ -20,7 +20,7 @@ I created numerous variations of the black armory shield using Grognok and Bonob
 
 ![Image](https://github.com/Polaros/AVI/raw/master/images/vg247.png)
 
-Image courtesy of VG24/7
+*Image courtesy of VG24/7*
 
 To create these shields, I worked with:
 - Designers: to adjust and balance the shields and help them place the shields into the world

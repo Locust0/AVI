@@ -18,6 +18,9 @@ I created numerous variations of the black armory shield using Grognok and Bonob
 - Tilt: which has drones orbit target as if on a spinning plane - its used as the shield of all the sabateurs
 - Teleport: which has the drones teleport higher or lower when damaged - its used as the shield for the final boss of the Gofannon forge
 
+![Image](https://github.com/Polaros/AVI/raw/master/images/vg247.png)
+Image courtesy of VG24/7
+
 To create these shields, I worked with:
 - Designers: to adjust and balance the shields and help them place the shields into the world
 - Technical designers: to help me with the harder aspects of the shield
@@ -26,8 +29,6 @@ To create these shields, I worked with:
 - Programmers: to stop the drones from inheriting the rotation of their parent (target)
 - Network engineers: to help me get the shields to work in a networked environment
 - Animators: to move the drones in a way that would better work in networked conditions
-
-![Image](https://github.com/Polaros/AVI/raw/master/images/vg247.png)
 
 ### Sabateur Encounters
 

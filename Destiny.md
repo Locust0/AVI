@@ -31,7 +31,7 @@ To create these shields, I worked with:
 - Network engineers: to help me get the shields to work in a networked environment
 - Animators: to move the drones in a way that would better work in networked conditions
 
-### Sabateur Encounters
+### Sabateur Encounters on Nessus & in EDZ
 
 I created the gatekeeper (forge sabateur) encounter prefab which was used by myself and Leo Zuniga to place the gatekeepers into the world. The prefab also features the crates with the shields which spawn as well.
 

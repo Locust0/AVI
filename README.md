@@ -7,7 +7,7 @@
 
 # Important Stuff
 - Email: nightremor@gmail.com
-- [Resume](/pdfs/Resume.pdf)
+- [Resume](/pdfs/RESUME.pdf)
 - [Linkedin](https://www.linkedin.com/in/avi-rosenblum-52a267167/)
 
 # Dev Blog Posts

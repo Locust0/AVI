@@ -35,6 +35,8 @@ To create these shields, I worked with:
 
 I created the gatekeeper (forge sabateur) encounter prefab which was used by myself and Leo Zuniga to place the gatekeepers into the world. The prefab also features the crates with the shields which spawn as well.
 
+There are 2 sabateur encounters each on Nessus and in the EDZ.
+
 ---
 
 - [HOME](https://avijr.com)

@@ -13,6 +13,7 @@ Listen in order of familiarity
 - C++: From making a game in Unreal - check out the devblog for the details on that game
 - Java: From the classes *Artificial Intelligence*, *Computer Science 2*, and *Object Oriented Software Design*
 - HTML: From the class *Web Design*
+- CSS: Also from the class *Web Design*
 - PhP: From the class *Principles of Object Oriented Software Development*
 - Haskell: From the class *Functional Programming*
 - Prolog: From the class *Artificial Intelligence*

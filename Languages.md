@@ -5,7 +5,7 @@
 
 # Known Languages
 
-## Extremely Familiar Languages
+### Extremely Familiar Languages
 Listen in order of familiarity
 
 - C#: From many hours of programming in Unity (all of my games were made with C#)
@@ -14,7 +14,7 @@ Listen in order of familiarity
 - C++: From making a game in Unreal - check out the dev blog for the details on that game
 - Java: From the classes *Artificial Intelligence*, *Computer Science 2*, and *Object Oriented Software Design*
 
-## Less Familiar Languages
+### Less Familiar Languages
 
 - HTML: From the class *Web Design*
 - CSS: Also from the class *Web Design*

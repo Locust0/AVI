@@ -3,7 +3,7 @@
 - [Immunizer](https://avijr.com/Immunizer)
 - [Tournament](https://avijr.com/Tournament)
 - [Unstoppable Force](https://avijr.com/UnstoppableForce)
-- [Destiny](https://avijr.com/Destiny)
+- [Destiny 2](https://avijr.com/Destiny)
 
 # Important Stuff
 - Email: nightremor@gmail.com

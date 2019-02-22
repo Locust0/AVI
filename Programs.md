@@ -23,6 +23,7 @@ Listen in order of familiarity
 
 - **Github**: From literally everything
 - **Perforce**: From working on the Black Armory DLC
+- **Node, Express, Mongo**: From my Senior Design project
 - **Text editors**: I don't generally use IDE but have on occasion used
 - **Netbeans**
 

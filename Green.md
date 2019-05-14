@@ -5,7 +5,9 @@
 
 # Orbits - Green Levels
 
-![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/bar_tilt.gif)
+![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/Layers.gif)
+
+![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/EarlyBombardment.gif)
 
 ---
 

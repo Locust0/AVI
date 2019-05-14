@@ -6,10 +6,10 @@
 - [Destiny 2](https://avijr.com/Destiny)
 
 # Encounters from Orbits
-- [Green](https://avijr.com/Green)
-- [Red](https://avijr.com/Red)
-- [Purple](https://avijr.com/Purple)
-- [Blue](https://avijr.com/Blue)
+- [Green](https://avijr.com/Green) - Introductory
+- [Red](https://avijr.com/Red) - Aggressive
+- [Purple](https://avijr.com/Purple) - Mobile
+- [Blue](https://avijr.com/Blue) - Defensive
 
 # Important Stuff
 - Email: nightremor@gmail.com

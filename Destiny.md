@@ -8,6 +8,8 @@
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/bar_tilt.gif)
 
 - Worked as a Design Intern at Vicarious Visions
+- Most of my work was as a technical designer of the Black Armory Shield
+- Also created the forge sabateur encounters - the introduction to the DLC
 - May 2018 – August 2018
 - Worked with Grognok, Bonobo & Max
 

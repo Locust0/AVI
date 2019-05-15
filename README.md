@@ -1,4 +1,4 @@
-# Avi Rosenblum: Technical and Encounter designer
+## Avi Rosenblum: Technical and Encounter designer
 
 ### Games Worked on
 - [Destiny 2](https://avijr.com/Destiny)

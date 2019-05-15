@@ -1,22 +1,20 @@
-# Games Worked on
+# Avi Rosenblum: Technical and Encounter designer
 
-## Indie
+## Games Worked on
+- [Destiny 2](https://avijr.com/Destiny)
 - [Orbits](https://avijr.com/Orbits) now on [Steam](https://store.steampowered.com/app/719350/Orbits/)
 - [Immunizer](https://avijr.com/Immunizer)
 - [Tournament](https://avijr.com/Tournament)
 - [Unstoppable Force](https://avijr.com/UnstoppableForce)
 
-## Large Scale
-- [Destiny 2](https://avijr.com/Destiny)
-
-# Encounters Design Examples
+## Encounter Design Examples
 - Orbits: [Green](https://avijr.com/Green) (Introductory)
 - Orbits: [Red](https://avijr.com/Red) (Aggressive)
 - Orbits: [Purple](https://avijr.com/Purple) (Mobile)
 - Orbits: [Blue](https://avijr.com/Blue) (Defensive)
 - Destiny 2: [Forge Sabateur Encounters](https://avijr.com/ForgeEncounters)
 
-# Important Stuff
+## Important Stuff
 - Email: nightremor@gmail.com
 - [Known Languages](https://avijr.com/Languages)
 - [Known Programs](https://avijr.com/Programs)

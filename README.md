@@ -5,11 +5,12 @@
 - [Unstoppable Force](https://avijr.com/UnstoppableForce)
 - [Destiny 2](https://avijr.com/Destiny)
 
-# Encounters from Orbits
-- [Green](https://avijr.com/Green) - Introductory
-- [Red](https://avijr.com/Red) - Aggressive
-- [Purple](https://avijr.com/Purple) - Mobile
-- [Blue](https://avijr.com/Blue) - Defensive
+# Encounters Design Examples
+- Orbits: [Green](https://avijr.com/Green) (Introductory)
+- Orbits: [Red](https://avijr.com/Red) (Aggressive)
+- Orbits: [Purple](https://avijr.com/Purple) (Mobile)
+- Orbits: [Blue](https://avijr.com/Blue) (Defensive)
+- Destiny 2: [Forge Sabateur Encounters](https://avijr.com/ForgeEncounters)
 
 # Important Stuff
 - Email: nightremor@gmail.com

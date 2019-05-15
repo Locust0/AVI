@@ -11,7 +11,7 @@ Red levels feature aggressive enemies which teach the player the value of shield
 ### Captured
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/Captured.gif)
 
-These quickly firing enemies are introduced in this level which emphasizes their strength - they do a lot of damage. The player begins protected by an invulnerable purple shield (The only time its used to protect the player) so they can safely observe the behavior of these enemies. 
+These quickly firing enemies are introduced in this level which emphasizes their strength - they do a lot of damage. The player begins protected by an invulnerable purple shield (The only time it's used to protect the player) so they can safely observe the behavior of these enemies. 
 
 When the player decides to "escape" from their prison, they can witness the main weakness of these enemies. They shoot slowly moving attacks, turn slowly and are very vulnerable to attacks.
 
@@ -19,7 +19,7 @@ When the player decides to "escape" from their prison, they can witness the main
 ### Funnel
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/FunnelDeath.gif)
 
-This level requires a clever tactic to take out these rapid firing enemies. A direct approach could work with enough skill but smart play will normally be needed to defeat these enemies.
+This level requires a clever tactic to take out these rapid firing enemies. A direct approach could work with enough skill, but smart play will normally be needed to defeat these enemies.
 
 Funnel teaches the player to use cover by both requiring its use to win and by starting them behind some cover.
 

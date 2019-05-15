@@ -39,6 +39,8 @@ I created the gatekeeper (forge sabateur) encounter prefab which was used by mys
 
 There are 2 sabateur encounters each on Nessus and in the EDZ.
 
+Check out [this](https://avijr.com/ForgeEncounters) for more details
+
 ---
 
 - [HOME](https://avijr.com)

@@ -24,7 +24,7 @@ This formation will also accommodate multiple players because a couple enemies w
 
 These rings were placed into the world in 4 locations: 2 in the EDZ and 2 on Nessus. The design of the ringed retreats meant that I could place the second and third formation in better and better positions so the boss would appear to retreat to a better area when damaged. The actual boss and group of enemies protecting them were all exchanged appropriately depending on the area.
 
-### How were these encounters used?
+# The Forge Encounters
 
 These 4 encounters were the preamble to the Black Armory DLC. They guard boxes which drop weapon frames needed for Black Armory weapon quests. The bosses also drop high level loot which is sometimes colored with the Black Armory colors. These encounters were farmed by players repeatedly because they were released before the rest of the DLC.
 

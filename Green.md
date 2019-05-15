@@ -24,7 +24,7 @@ This level can also beat quickly if the player decides to try teleporting past t
 
 Early bombardment features the least realistic orbit pattern in the game. The layers of rock come together and pass each other to help defend the central enemies. As time passes, the layers of rock become more and more dense and hard to get past so the level necessitates speed to beat. As a result, it also teaches the player the advantages of swiftly taking out enemies instead of hesitating.
 
-Another interesting way to beat the level is by using the defensive rocks to your advantage by hitting the central enemies with them. Its far from easy but a clever player can use this to end the level even faster.
+Another interesting way to beat the level is by using the defensive rocks to your advantage by hitting the central enemies with them. It's far from easy but a clever player can use this to end the level even faster.
 
 ---
 

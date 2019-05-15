@@ -1,8 +1,12 @@
-# Games + Code Samples
-- [Orbits](https://avijr.com/Orbits)
+# Games Worked on
+
+## Indie
+- [Orbits](https://avijr.com/Orbits) now on [Steam](https://store.steampowered.com/app/719350/Orbits/)
 - [Immunizer](https://avijr.com/Immunizer)
 - [Tournament](https://avijr.com/Tournament)
 - [Unstoppable Force](https://avijr.com/UnstoppableForce)
+
+## Large Scale
 - [Destiny 2](https://avijr.com/Destiny)
 
 # Encounters Design Examples
@@ -19,7 +23,7 @@
 - [Resume](/pdfs/Resume.pdf)
 - [Linkedin](https://www.linkedin.com/in/avi-rosenblum-52a267167/)
 
-# Druid Dev Blog Posts
+## Druid Dev Blog Posts
 - [The Idea - September 12, 2018](https://avijr.com/posts/9_12_18)
 - [Prototyping - September 20, 2018](https://avijr.com/posts/9_20_18)
 - [Draining and Giving Life - October 2, 2018](https://avijr.com/posts/10_2_18)
@@ -29,5 +33,5 @@
 - [Aesthetics - December 2, 2018](https://avijr.com/posts/12_2_18)
 - [Interacting with Seeds and Trees - January 16, 2019](https://avijr.com/posts/1_16_19)
 
-# Sapphire Dev Blog Posts
+## Sapphire Dev Blog Posts
 - [The New Idea - May 8, 2019](https://avijr.com/posts/5_8_19)

@@ -18,6 +18,7 @@ Finally, the blue cylinder also orbiting the center can help replenish the playe
 
 This level can also beat quickly if the player decides to try teleporting past the barriers to kill the enemy quickly.
 
+---
 ### Early Bombardment
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/EarlyBombardment.gif)
 

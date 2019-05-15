@@ -38,9 +38,9 @@ The initial prototype was given to me to iterate on and complete by another tech
 
 ### Saboteur Encounters on Nessus & in EDZ
 
-I created the gatekeeper (forge saboteur) encounter prefab which was used by myself and Leo Zuniga to place the gatekeepers into the world. The prefab also features the crates with the shields which spawn as well.
+I created the gatekeeper (forge saboteur) encounter prefab which was used by myself and Leo Zuniga to place the gatekeepers into the world. The prefab also features the crates which drop Black Armory Weapon frames. These are used for quests to create Black Armory weapons.
 
-There are 2 saboteur encounters each on Nessus and in the EDZ.
+There are 4 saboteur encounters on Nessus and in the EDZ.
 
 Check out [this](https://avijr.com/ForgeEncounters) for more details
 

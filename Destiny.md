@@ -9,16 +9,16 @@
 
 - Worked as a Design Intern at Vicarious Visions
 - Most of my work was as a technical designer of the Black Armory Shield
-- Also created the forge sabateur encounters - the introduction to the DLC
+- Also created the forge saboteur encounters - the introduction to the DLC
 - May 2018 – August 2018
 - Worked with Grognok, Bonobo & Max
 
 ### Technical Design: Black Armory Shields
 
 I created numerous variations of the black armory shield using Grognok and Bonobo. These shields are used in the Forge Saboteur encounters, in the forges themselves and in the quests to unlock the forges. The one above is the Tilt shield. The released versions include:
-- Basic: which has the drones moving in a very perdictable pattern circling the target - its used as the shield around the crates in the sabateur encounters (but with only 1 drone), in the quest to unlock the Gofannon forge and as the final boss's shield in the Volundr forge
-- Tilt: which has drones orbit target as if on a spinning plane - its used as the shield for all the sabateurs
-- Teleport: which has the drones teleport higher or lower when damaged - its used as the shield for the final boss of the Gofannon forge
+- Basic: which has the drones moving in a very predictable pattern circling the target - it's used as the shield around the crates in the saboteur encounters (but with only 1 drone), in the quest to unlock the Gofannon forge and as the final boss's shield in the Volundr forge
+- Tilt: which has drones orbit target as if on a spinning plane - it's used as the shield for all the saboteurs
+- Teleport: which has the drones teleport higher or lower when damaged - it's used as the shield for the final boss of the Gofannon forge
 
 ![Image](https://github.com/Polaros/AVI/raw/master/images/vg247.png)
 
@@ -36,11 +36,11 @@ To create these shields, I worked with:
 
 The initial prototype was given to me to iterate on and complete by another technical designer. I did just that and was soon given the reins to create as many cool variations of the shield as I could. I created many and 3 of the best made it into the game.
 
-### Sabateur Encounters on Nessus & in EDZ
+### Saboteur Encounters on Nessus & in EDZ
 
-I created the gatekeeper (forge sabateur) encounter prefab which was used by myself and Leo Zuniga to place the gatekeepers into the world. The prefab also features the crates with the shields which spawn as well.
+I created the gatekeeper (forge saboteur) encounter prefab which was used by myself and Leo Zuniga to place the gatekeepers into the world. The prefab also features the crates with the shields which spawn as well.
 
-There are 2 sabateur encounters each on Nessus and in the EDZ.
+There are 2 saboteur encounters each on Nessus and in the EDZ.
 
 Check out [this](https://avijr.com/ForgeEncounters) for more details
 

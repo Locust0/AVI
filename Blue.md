@@ -31,7 +31,7 @@ The solution is to mimic the movement of the enemy by moving in a circle to keep
 ### Train
 ![Output sample](https://github.com/Polaros/AVI/raw/master/gifs/Train.gif)
 
-The level Train is a very odd one. It features a procession of enemies which are highly vulnerable from angles which are difficult to reach. The most sensible position to attack the train is from behind as it clears the field of asteroids. However, from this angle, none of the enemies can be damaged.
+The level Train is a strange encounter. It features a procession of enemies which are highly vulnerable from angles which are difficult to reach. The most sensible position to attack the train is from behind as it clears the field of asteroids. However, from this angle, none of the enemies can be damaged.
 
 As a result, the player must find vacant pockets near the path of the train in the field of rocks. They also can't inhabit those locations for long because they train keeps moving and can fill up those pockets with damaging attacks quickly.
 

@@ -33,5 +33,5 @@
 
 ### Sapphire Dev Blog Posts
 - [The New Idea - May 8, 2019](https://avijr.com/posts/5_8_19)
-- [Bombs, Magic and Dialogue - May 18, 2019](https://avijr.com/posts/5_18_19)
+- [Bombs, Magic, and Dialogue - May 18, 2019](https://avijr.com/posts/5_18_19)
 - [BFS, A*, and Wall Creation - June 5, 2019](https://avijr.com/posts/6_5_19)

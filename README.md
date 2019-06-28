@@ -1,4 +1,4 @@
-## Avi Rosenblum: Designer and Programmer
+## Avi Rosenblum: Game Designer and Programmer
 
 ### Games Worked on
 - [Destiny 2](https://avijr.com/Destiny)

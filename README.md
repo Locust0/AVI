@@ -36,3 +36,4 @@
 - [Bombs, Magic, and Dialogue - May 18, 2019](https://avijr.com/posts/5_18_19)
 - [BFS, A*, and Wall Creation - June 5, 2019](https://avijr.com/posts/6_5_19)
 - [Aesthetics - July 22, 2019](https://avijr.com/posts/7_22_19)
+- [Warp Trees - August 23, 2019](https://avijr.com/posts/8_23_19)

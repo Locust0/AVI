@@ -38,3 +38,4 @@
 - [BFS, A*, and Wall Creation - June 5, 2019](https://avijr.com/posts/6_5_19)
 - [Aesthetics - July 22, 2019](https://avijr.com/posts/7_22_19)
 - [Warp Trees - August 23, 2019](https://avijr.com/posts/8_23_19)
+- [Intro, Camera Smoothing, and Enemy AI - October 8, 2019](https://avijr.com/posts/10_9_19.md)

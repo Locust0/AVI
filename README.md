@@ -6,7 +6,7 @@
 - Email: nightremor@gmail.com
 - [Known Languages](https://avijr.com/Languages)
 - [Known Programs](https://avijr.com/Programs)
-- [Github](https://github.com/Polaros/)
+- [Github](https://github.com/Locust0/)
 - [Resume](/pdfs/Resume.pdf)
 - [Linkedin](https://www.linkedin.com/in/avi-rosenblum-52a267167/)
 

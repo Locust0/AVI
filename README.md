@@ -3,7 +3,6 @@
 ---
 
 ### Important Stuff
-- Email: nightremor@gmail.com
 - [Known Languages](https://avijr.com/Languages)
 - [Known Programs](https://avijr.com/Programs)
 - [Github](https://github.com/Locust0/)

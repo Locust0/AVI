@@ -6,7 +6,7 @@
 - [Known Languages](https://avijr.com/Languages)
 - [Known Programs](https://avijr.com/Programs)
 - [Github](https://github.com/Locust0/)
-- [Linkedin](www.linkedin.com/in/avi-kohav-52a267167)
+- [Linkedin](https://linkedin.com/in/avi-kohav-52a267167)
 
 ---
 

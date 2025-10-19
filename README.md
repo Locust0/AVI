@@ -1,4 +1,4 @@
-## Avi Rosenblum: Game Designer and Programmer
+## Avi Kohav: Game Designer and Programmer
 
 ---
 
